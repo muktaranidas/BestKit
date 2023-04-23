@@ -1,9 +1,14 @@
 import React from "react";
+import MarketingPartners from "../MarketingPartners/MarketingPartners";
+import AboutUs from "../../AboutUs/AboutUs";
+import OurCoreValuesPrinciples from "../OurCoreValuesPrinciples/OurCoreValuesPrinciples";
 
 const Home = () => {
   return (
     <div>
-      <h1></h1>
+      <MarketingPartners></MarketingPartners>
+      <AboutUs></AboutUs>
+      <OurCoreValuesPrinciples></OurCoreValuesPrinciples>
     </div>
   );
 };
