@@ -1,8 +1,9 @@
 import React from "react";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 mx-auto w-[900px]">
+    <div className="navbar max-w-[1200px] mx-auto ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -42,7 +43,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Bestkit</a>
+        <a className="btn btn-ghost normal-case text-xl">
+          Best <span className="nav-kit">kit</span>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -64,26 +67,25 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a
-          href="#_"
-          class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-blue-500  sm:w-auto sm:mb-0"
-          data-primary="green-400"
-          data-rounded="rounded-2xl"
-          data-primary-reset="{}"
-        >
-          Get Started
-          <svg
-            class="w-4 h-4 ml-1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
+        <a className="btn rounded-none normal-case nav-button ">
+          Contact Us
+          <span className="pl-3.5">
+            <svg
+              width="8"
+              height="14"
+              viewBox="0 0 8 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 13L7 7L1 1"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
         </a>
       </div>
     </div>

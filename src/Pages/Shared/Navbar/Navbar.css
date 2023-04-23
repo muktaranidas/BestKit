@@ -1,0 +1,16 @@
+* {
+  font-family: "HK Grotesk", sans-serif;
+}
+
+.nav-button {
+  padding-top: 18px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #008aff;
+  border-radius: 3px;
+  border: none;
+}
+.nav-kit {
+  color: #008aff;
+}
