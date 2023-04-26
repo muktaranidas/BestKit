@@ -1,10 +1,13 @@
 import React from "react";
+import "./MarketingPartners.css";
 
 const MarketingPartners = () => {
   return (
-    <section className="dark:bg-gray-800 dark:text-gray-100">
+    <section className="">
       <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
-        <h2 className="text-3xl font-bold">PROUD MARKETING PARTNERS WITH</h2>
+        <h2 className="proud mx-auto">
+          Proud Marketing <span className="partners">Partners</span> With
+        </h2>
         <div className="flex flex-wrap justify-center lg:justify-between">
           <svg
             width="99"

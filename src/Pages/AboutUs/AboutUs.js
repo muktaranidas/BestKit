@@ -1,20 +1,28 @@
 import React from "react";
 import "./AboutUs.css";
 import aboutImg from "../../../src/assets/about/different-coworkers-having-meeting 2.png";
+import bgImg from "../../../src/assets/about/Bg.png";
 
 const AboutUs = () => {
   return (
-    <section className="dark:bg-gray-800 dark:text-gray-100">
+    <section className="">
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12  lg:flex-row lg:justify-between">
-        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+        <div className="flex items-center  justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+          <div className="relative">
+            <img
+              src={bgImg}
+              alt=""
+              className=" w-[525px] object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+            />
+          </div>
           <img
             src={aboutImg}
             alt=""
-            className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+            className="w-[533px] h-[565px] py left-10  about-img absolute    object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
           />
         </div>
-        <div className="  flex flex-col  p-6 rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-          <h1 className="learnAboutUs">Learn About Us</h1>
+        <div className="flex flex-col  rounded-sm  text-left">
+          <h1 className="learn-About-Us">Learn About Us</h1>
           <h1>
             Brainstorming Sessions Churning <br></br> Out New Ideas
           </h1>

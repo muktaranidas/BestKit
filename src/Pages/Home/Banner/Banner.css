@@ -1,0 +1,39 @@
+.banner-bg {
+  background-color: #f0f9fe;
+}
+.banner-h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #008aff;
+}
+
+.bannner-heading {
+  width: 645px;
+  height: 152px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 76px;
+  color: #222d39;
+}
+.bannner-description {
+  width: 533px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #8492a7;
+}
+.banner-startup {
+  color: #008aff;
+}
+.banner-input-w {
+  width: 563px;
+  height: 71px;
+  background: #ffffff;
+  box-shadow: 0px 15px 35px rgba(210, 217, 224, 0.25);
+  border-radius: 5px;
+}
