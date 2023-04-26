@@ -4,8 +4,8 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <section className="banner-bg  mx-auto">
-      <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+    <section className="banner-bg ">
+      <div className="container flex flex-col justify-center py-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <div className="flex flex-row ">
             <span className="mt-2 pr-4">
