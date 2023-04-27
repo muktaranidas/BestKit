@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurCoreValuesPrinciples.css";
+import Button from "../../Shared/Button/Button";
 
 const OurCoreValuesPrinciples = () => {
   return (
@@ -388,6 +389,9 @@ const OurCoreValuesPrinciples = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="text-center ">
+        <Button btnText={"Get In Touch"}></Button>
       </div>
     </section>
   );
