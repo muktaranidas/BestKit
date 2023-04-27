@@ -7,7 +7,7 @@ module.exports = {
       blue: "#008AFF",
       black: "#222D39",
       white: "#FFFFFF",
-      // grayText: "#ADB7C2",
+      gray: "#8492A7",
       // bgColor: "#F0F9FE",
       // lightBorder: "#DEE7EE",
     },
