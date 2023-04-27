@@ -1,37 +1,30 @@
 import React from "react";
 import "./Footer.css";
+import Bestkit from "../BestKit/Bestkit";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="px-4 divide-y bg-footer">
-        <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-          <div className="lg:w-1/3">
-            <a
-              rel="noopener noreferrer"
-              href="#"
-              className="flex justify-center space-x-3 lg:justify-start"
-            >
-              <div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400"></div>
-              <span className="self-center text-2xl font-semibold">
-                BestKit
-              </span>
-            </a>
+    <footer className="px-4  bg-[#222D39] text-white">
+      <div className="widthClass  flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+        <div className="lg:w-1/3">
+          <div className="flex flex-col space-y-4">
+            <Bestkit></Bestkit>
+            <p className=" text-[#ADB7C2] ">
+              Bring a best development experience <br /> to designers and
+              developers by offer <br /> the tools needed for having a quicks{" "}
+              <br />
+              and most web projects.
+            </p>
           </div>
-          <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
-            <div className="space-y-3">
-              <h3 className="tracking-wide uppercase dark:text-gray-50">
-                Product
-              </h3>
-              <ul className="space-y-1">
+        </div>
+        <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
+          <div className="space-y-3">
+            <h3 className="tracking-wide  dark:text-gray-50">About Company</h3>
+            <div className="flex flex-row space-x-12 ">
+              <ul className="space-y-1  text-[#ADB7C2] ">
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <a rel="noopener noreferrer" href="#">
-                    Integrations
+                    Service
                   </a>
                 </li>
                 <li>
@@ -41,104 +34,283 @@ const Footer = () => {
                 </li>
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    FAQ
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer" href="#">
+                    Careers
                   </a>
                 </li>
               </ul>
-            </div>
-            <div className="space-y-3">
-              <h3 className="tracking-wide uppercase dark:text-gray-50">
-                Company
-              </h3>
-              <ul className="space-y-1">
+              <ul className="space-y-1  text-[#ADB7C2] ">
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    Privacy
+                    Works
                   </a>
                 </li>
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    Terms of Service
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="space-y-3">
-              <h3 className="uppercase dark:text-gray-50">Developers</h3>
-              <ul className="space-y-1">
-                <li>
-                  <a rel="noopener noreferrer" href="#">
-                    Public API
+                    Resources
                   </a>
                 </li>
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    Documentation
+                    New
                   </a>
                 </li>
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    Guides
+                    Privacy Policy
                   </a>
                 </li>
               </ul>
-            </div>
-            <div className="space-y-3">
-              <div className="uppercase dark:text-gray-50">Social media</div>
-              <div className="flex justify-start space-x-3">
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
-                  title="Facebook"
-                  className="flex items-center p-1"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 32 32"
-                    className="w-5 h-5 fill-current"
-                  >
-                    <path d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z"></path>
-                  </svg>
-                </a>
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
-                  title="Twitter"
-                  className="flex items-center p-1"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-5 h-5 fill-current"
-                  >
-                    <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"></path>
-                  </svg>
-                </a>
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
-                  title="Instagram"
-                  className="flex items-center p-1"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 32 32"
-                    fill="currentColor"
-                    className="w-5 h-5 fill-current"
-                  >
-                    <path d="M16 0c-4.349 0-4.891 0.021-6.593 0.093-1.709 0.084-2.865 0.349-3.885 0.745-1.052 0.412-1.948 0.959-2.833 1.849-0.891 0.885-1.443 1.781-1.849 2.833-0.396 1.020-0.661 2.176-0.745 3.885-0.077 1.703-0.093 2.244-0.093 6.593s0.021 4.891 0.093 6.593c0.084 1.704 0.349 2.865 0.745 3.885 0.412 1.052 0.959 1.948 1.849 2.833 0.885 0.891 1.781 1.443 2.833 1.849 1.020 0.391 2.181 0.661 3.885 0.745 1.703 0.077 2.244 0.093 6.593 0.093s4.891-0.021 6.593-0.093c1.704-0.084 2.865-0.355 3.885-0.745 1.052-0.412 1.948-0.959 2.833-1.849 0.891-0.885 1.443-1.776 1.849-2.833 0.391-1.020 0.661-2.181 0.745-3.885 0.077-1.703 0.093-2.244 0.093-6.593s-0.021-4.891-0.093-6.593c-0.084-1.704-0.355-2.871-0.745-3.885-0.412-1.052-0.959-1.948-1.849-2.833-0.885-0.891-1.776-1.443-2.833-1.849-1.020-0.396-2.181-0.661-3.885-0.745-1.703-0.077-2.244-0.093-6.593-0.093zM16 2.88c4.271 0 4.781 0.021 6.469 0.093 1.557 0.073 2.405 0.333 2.968 0.553 0.751 0.291 1.276 0.635 1.844 1.197 0.557 0.557 0.901 1.088 1.192 1.839 0.22 0.563 0.48 1.411 0.553 2.968 0.072 1.688 0.093 2.199 0.093 6.469s-0.021 4.781-0.099 6.469c-0.084 1.557-0.344 2.405-0.563 2.968-0.303 0.751-0.641 1.276-1.199 1.844-0.563 0.557-1.099 0.901-1.844 1.192-0.556 0.22-1.416 0.48-2.979 0.553-1.697 0.072-2.197 0.093-6.479 0.093s-4.781-0.021-6.48-0.099c-1.557-0.084-2.416-0.344-2.979-0.563-0.76-0.303-1.281-0.641-1.839-1.199-0.563-0.563-0.921-1.099-1.197-1.844-0.224-0.556-0.48-1.416-0.563-2.979-0.057-1.677-0.084-2.197-0.084-6.459 0-4.26 0.027-4.781 0.084-6.479 0.083-1.563 0.339-2.421 0.563-2.979 0.276-0.761 0.635-1.281 1.197-1.844 0.557-0.557 1.079-0.917 1.839-1.199 0.563-0.219 1.401-0.479 2.964-0.557 1.697-0.061 2.197-0.083 6.473-0.083zM16 7.787c-4.541 0-8.213 3.677-8.213 8.213 0 4.541 3.677 8.213 8.213 8.213 4.541 0 8.213-3.677 8.213-8.213 0-4.541-3.677-8.213-8.213-8.213zM16 21.333c-2.948 0-5.333-2.385-5.333-5.333s2.385-5.333 5.333-5.333c2.948 0 5.333 2.385 5.333 5.333s-2.385 5.333-5.333 5.333zM26.464 7.459c0 1.063-0.865 1.921-1.923 1.921-1.063 0-1.921-0.859-1.921-1.921 0-1.057 0.864-1.917 1.921-1.917s1.923 0.86 1.923 1.917z"></path>
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
+          <div className="space-y-3 ">
+            <h3 className="tracking-wide  dark:text-gray-50">Account</h3>
+            <ul className="space-y-1 text-[#ADB7C2] ">
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  profile
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  Setting
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  Billing
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  Notifications
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="space-y-3">
+            <h3 className=" dark:text-gray-50">Get In Touch</h3>
+            <ul className="space-y-1 text-[#ADB7C2] text-sm">
+              <li className="flex flex-row space-x-2">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1_6835)">
+                    <path
+                      d="M9 16.5C13.1421 16.5 16.5 13.1421 16.5 9C16.5 4.85786 13.1421 1.5 9 1.5C4.85786 1.5 1.5 4.85786 1.5 9C1.5 13.1421 4.85786 16.5 9 16.5Z"
+                      stroke="#ADB7C2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M9 4.5V9L12 10.5"
+                      stroke="#ADB7C2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_6835">
+                      <rect width="18" height="18" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <a rel="noopener noreferrer" href="#">
+                  Sun-Fri: 9:00-5:00
+                </a>
+              </li>
+              <li className="flex flex-row space-x-2">
+                <svg
+                  width="19"
+                  height="18"
+                  viewBox="0 0 19 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1_6840)">
+                    <path
+                      d="M3.74493 3H15.7513C16.5767 3 17.2521 3.675 17.2521 4.5V13.5C17.2521 14.325 16.5767 15 15.7513 15H3.74493C2.9195 15 2.24414 14.325 2.24414 13.5V4.5C2.24414 3.675 2.9195 3 3.74493 3Z"
+                      stroke="#ADB7C2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M17.2521 4.5L9.74811 9.75L2.24414 4.5"
+                      stroke="#ADB7C2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_6840">
+                      <rect
+                        width="18.0095"
+                        height="18"
+                        fill="white"
+                        transform="translate(0.744141)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <a rel="noopener noreferrer" href="#">
+                  info@example.com
+                </a>
+              </li>
+              <li className="flex flex-row space-x-2">
+                <svg
+                  width="19"
+                  height="18"
+                  viewBox="0 0 19 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1_6850)">
+                    <path
+                      d="M14.001 1.75L17.0026 4.75L14.001 7.75"
+                      stroke="#ADB7C2"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11 4.75H17.0032"
+                      stroke="#ADB7C2"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M17.2521 12.6901V14.9401C17.253 15.1489 17.2101 15.3557 17.1264 15.5471C17.0427 15.7385 16.9199 15.9103 16.7659 16.0515C16.6119 16.1927 16.4301 16.3002 16.2321 16.3671C16.0342 16.434 15.8244 16.4589 15.6162 16.4401C13.3071 16.1893 11.0891 15.4007 9.14031 14.1376C7.32723 12.9861 5.79005 11.4497 4.63793 9.63757C3.36975 7.68098 2.58053 5.45332 2.33422 3.13507C2.31546 2.92767 2.34013 2.71864 2.40663 2.52129C2.47313 2.32394 2.58002 2.14259 2.72049 1.98879C2.86097 1.83499 3.03194 1.7121 3.22253 1.62796C3.41312 1.54382 3.61915 1.50027 3.82751 1.50007H6.0787C6.44287 1.49649 6.79592 1.62538 7.07204 1.86272C7.34817 2.10006 7.52852 2.42966 7.57949 2.79007C7.67451 3.51012 7.85072 4.21712 8.10477 4.89757C8.20573 5.16602 8.22758 5.45776 8.16773 5.73823C8.10788 6.01871 7.96884 6.27616 7.76709 6.48007L6.81408 7.43257C7.88232 9.31023 9.43781 10.8649 11.3165 11.9326L12.2695 10.9801C12.4735 10.7784 12.7311 10.6395 13.0117 10.5796C13.2923 10.5198 13.5842 10.5417 13.8528 10.6426C14.5336 10.8965 15.241 11.0726 15.9614 11.1676C16.3259 11.219 16.6588 11.4025 16.8968 11.6832C17.1348 11.9639 17.2612 12.3223 17.2521 12.6901Z"
+                      stroke="#ADB7C2"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_6850">
+                      <rect
+                        width="18.0095"
+                        height="18"
+                        fill="white"
+                        transform="translate(0.744141)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <a rel="noopener noreferrer" href="#">
+                  0834 3849 9200
+                </a>
+              </li>
+              <li className="flex flex-row space-x-2">
+                <svg
+                  width="19"
+                  height="18"
+                  viewBox="0 0 19 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.7525 7.54545C16.7525 12.6364 9.74882 17 9.74882 17C9.74882 17 2.74512 12.6364 2.74512 7.54545C2.74512 5.80949 3.48301 4.14463 4.79645 2.91712C6.1099 1.68961 7.89132 1 9.74882 1C11.6063 1 13.3877 1.68961 14.7012 2.91712C16.0146 4.14463 16.7525 5.80949 16.7525 7.54545Z"
+                    stroke="#ADB7C2"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.74924 9.75C10.9925 9.75 12.0004 8.74264 12.0004 7.5C12.0004 6.25736 10.9925 5.25 9.74924 5.25C8.50594 5.25 7.49805 6.25736 7.49805 7.5C7.49805 8.74264 8.50594 9.75 9.74924 9.75Z"
+                    stroke="#ADB7C2"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <a rel="noopener noreferrer" href="#">
+                  16/A New York, USA
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="py-6 text-sm text-center dark:text-gray-400">
-          © 1968 Company Co. All rights reserved.
+      </div>
+      <hr className="widthClass mx-auto" />
+      <div className="widthClass mx-auto flex flex-row justify-between py-2">
+        <div className="flex flex-row space-x-4 ">
+          <span>
+            <svg
+              width="10"
+              height="16"
+              viewBox="0 0 10 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.71875 9L9.15625 6.125H6.375V4.25C6.375 3.4375 6.75 2.6875 8 2.6875H9.28125V0.21875C9.28125 0.21875 8.125 0 7.03125 0C4.75 0 3.25 1.40625 3.25 3.90625V6.125H0.6875V9H3.25V16H6.375V9H8.71875Z"
+                fill="#ADB7C2"
+              />
+            </svg>
+          </span>
+          <span>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 0.25C3.71875 0.25 0.25 3.75 0.25 8C0.25 12.2812 3.71875 15.75 8 15.75C12.25 15.75 15.75 12.2812 15.75 8C15.75 3.75 12.25 0.25 8 0.25ZM13.0938 3.84375C14.0312 4.96875 14.5938 6.40625 14.5938 7.96875C14.375 7.90625 12.1875 7.46875 10 7.75C9.8125 7.3125 9.65625 6.9375 9.40625 6.4375C11.875 5.4375 12.9688 4.03125 13.0938 3.84375ZM12.375 3.0625C12.25 3.25 11.25 4.59375 8.90625 5.46875C7.8125 3.46875 6.625 1.84375 6.4375 1.59375C8.53125 1.09375 10.75 1.625 12.375 3.0625ZM5.15625 2.03125C5.34375 2.28125 6.53125 3.90625 7.625 5.875C4.53125 6.6875 1.8125 6.6875 1.5 6.65625C1.9375 4.625 3.3125 2.90625 5.15625 2.03125ZM1.375 8.03125C1.375 7.96875 1.375 7.90625 1.375 7.8125C1.65625 7.84375 4.875 7.875 8.15625 6.875C8.375 7.25 8.53125 7.625 8.71875 8C6.3125 8.6875 4.125 10.625 3.0625 12.4375C2 11.2812 1.375 9.71875 1.375 8.03125ZM3.90625 13.25C4.625 11.8438 6.5 10 9.15625 9.09375C10.0938 11.5 10.4688 13.5312 10.5625 14.125C8.4375 15.0312 5.875 14.7812 3.90625 13.25ZM11.6875 13.5C11.625 13.125 11.25 11.1875 10.4062 8.78125C12.4688 8.46875 14.2812 9 14.5312 9.0625C14.2188 10.9062 13.1562 12.5 11.6875 13.5Z"
+                fill="#ADB7C2"
+              />
+            </svg>
+          </span>
+          <span>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.15625 12.4375C5.15625 12.375 5.09375 12.3125 5 12.3125C4.90625 12.3125 4.84375 12.375 4.84375 12.4375C4.84375 12.5 4.90625 12.5625 5 12.5312C5.09375 12.5312 5.15625 12.5 5.15625 12.4375ZM4.1875 12.2812C4.1875 12.3438 4.25 12.4375 4.34375 12.4375C4.40625 12.4688 4.5 12.4375 4.53125 12.375C4.53125 12.3125 4.5 12.25 4.40625 12.2188C4.3125 12.1875 4.21875 12.2188 4.1875 12.2812ZM5.59375 12.25C5.5 12.25 5.4375 12.3125 5.4375 12.4062C5.4375 12.4688 5.53125 12.5 5.625 12.4688C5.71875 12.4375 5.78125 12.4062 5.75 12.3438C5.75 12.2812 5.65625 12.2188 5.59375 12.25ZM7.625 0.25C3.3125 0.25 0 3.5625 0 7.875C0 11.3438 2.15625 14.3125 5.28125 15.375C5.6875 15.4375 5.8125 15.1875 5.8125 15C5.8125 14.7812 5.8125 13.7188 5.8125 13.0625C5.8125 13.0625 3.625 13.5312 3.15625 12.125C3.15625 12.125 2.8125 11.2188 2.3125 11C2.3125 11 1.59375 10.5 2.34375 10.5C2.34375 10.5 3.125 10.5625 3.5625 11.3125C4.25 12.5312 5.375 12.1875 5.84375 11.9688C5.90625 11.4688 6.09375 11.125 6.34375 10.9062C4.59375 10.7188 2.8125 10.4688 2.8125 7.46875C2.8125 6.59375 3.0625 6.1875 3.5625 5.625C3.46875 5.40625 3.21875 4.59375 3.65625 3.5C4.28125 3.3125 5.8125 4.34375 5.8125 4.34375C6.4375 4.15625 7.09375 4.09375 7.75 4.09375C8.4375 4.09375 9.09375 4.15625 9.71875 4.34375C9.71875 4.34375 11.2188 3.28125 11.875 3.5C12.3125 4.59375 12.0312 5.40625 11.9688 5.625C12.4688 6.1875 12.7812 6.59375 12.7812 7.46875C12.7812 10.4688 10.9375 10.7188 9.1875 10.9062C9.46875 11.1562 9.71875 11.625 9.71875 12.375C9.71875 13.4062 9.6875 14.7188 9.6875 14.9688C9.6875 15.1875 9.84375 15.4375 10.25 15.3438C13.375 14.3125 15.5 11.3438 15.5 7.875C15.5 3.5625 11.9688 0.25 7.625 0.25ZM3.03125 11.0312C2.96875 11.0625 3 11.1562 3.03125 11.2188C3.09375 11.25 3.15625 11.2812 3.21875 11.25C3.25 11.2188 3.25 11.125 3.1875 11.0625C3.125 11.0312 3.0625 11 3.03125 11.0312ZM2.6875 10.7812C2.65625 10.8438 2.6875 10.875 2.75 10.9062C2.8125 10.9375 2.875 10.9375 2.90625 10.875C2.90625 10.8438 2.875 10.8125 2.8125 10.7812C2.75 10.75 2.71875 10.75 2.6875 10.7812ZM3.6875 11.9062C3.65625 11.9375 3.65625 12.0312 3.75 12.0938C3.8125 12.1562 3.90625 12.1875 3.9375 12.125C3.96875 12.0938 3.96875 12 3.90625 11.9375C3.84375 11.875 3.75 11.8438 3.6875 11.9062ZM3.34375 11.4375C3.28125 11.4688 3.28125 11.5625 3.34375 11.625C3.40625 11.6875 3.46875 11.7188 3.53125 11.6875C3.5625 11.6562 3.5625 11.5625 3.53125 11.5C3.46875 11.4375 3.40625 11.4062 3.34375 11.4375Z"
+                fill="#ADB7C2"
+              />
+            </svg>
+          </span>
+          <span>
+            <svg
+              width="16"
+              height="14"
+              viewBox="0 0 16 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.3438 3.75C14.9688 3.28125 15.5312 2.71875 15.9688 2.0625C15.4062 2.3125 14.75 2.5 14.0938 2.5625C14.7812 2.15625 15.2812 1.53125 15.5312 0.75C14.9062 1.125 14.1875 1.40625 13.4688 1.5625C12.8438 0.90625 12 0.53125 11.0625 0.53125C9.25 0.53125 7.78125 2 7.78125 3.8125C7.78125 4.0625 7.8125 4.3125 7.875 4.5625C5.15625 4.40625 2.71875 3.09375 1.09375 1.125C0.8125 1.59375 0.65625 2.15625 0.65625 2.78125C0.65625 3.90625 1.21875 4.90625 2.125 5.5C1.59375 5.46875 1.0625 5.34375 0.625 5.09375V5.125C0.625 6.71875 1.75 8.03125 3.25 8.34375C3 8.40625 2.6875 8.46875 2.40625 8.46875C2.1875 8.46875 2 8.4375 1.78125 8.40625C2.1875 9.71875 3.40625 10.6562 4.84375 10.6875C3.71875 11.5625 2.3125 12.0938 0.78125 12.0938C0.5 12.0938 0.25 12.0625 0 12.0312C1.4375 12.9688 3.15625 13.5 5.03125 13.5C11.0625 13.5 14.3438 8.53125 14.3438 4.1875C14.3438 4.03125 14.3438 3.90625 14.3438 3.75Z"
+                fill="#ADB7C2"
+              />
+            </svg>
+          </span>
         </div>
-      </footer>
-    </div>
+        <p>© 2020 bestkit. All rights reserved</p>
+      </div>
+    </footer>
   );
 };
 

@@ -11,6 +11,7 @@ import SpecialOutstandingServices from "../SpecialOutstandingServices/SpecialOut
 import Testimonial from "../Testimonial/Testimonial";
 import FAQ from "../FAQ/FAQ";
 import OurSkill from "../OurSkill/OurSkill";
+import Bestkit from "../../Shared/BestKit/Bestkit";
 
 const Home = () => {
   return (

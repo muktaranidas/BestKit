@@ -12,6 +12,13 @@ const AboutUs = () => {
           <div className="relative">
             <img src={bgImg} alt="" className="" />
             <img src={aboutImg} alt="" className=" absolute top-12 left-12" />
+            <div className=" absolute right-2 bottom-24 text-white flex flex-row space-x-2 bg-[#36CD77] w-36 py-2 px-2">
+              <h1 className="my-2 font-bold text-xl ">25+</h1>
+              <p className="text-sm">
+                Years Of <br />
+                Experience
+              </p>
+            </div>
           </div>
         </div>
         <div className="flex  flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
