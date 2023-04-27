@@ -4,9 +4,9 @@ import Button from "../../Shared/Button/Button";
 
 const SpecialOutstandingServices = () => {
   return (
-    <section className="bgWhite py-6 ">
-      <div className=" widthClass container py-4 mx-auto space-y-16 sm:p-10">
-        <div className=" flex flex-row justify-between">
+    <section className="bgWhite  ">
+      <div className=" widthClass container  mx-auto space-y-16 sm:p-10">
+        <div className=" flex flex-row  justify-between">
           <div className="space-y-2 relative">
             <p className="text-blue ">How Can We Help?</p>
             <h1 className="font-semibold text-5xl lg:text-3xl">
@@ -18,8 +18,8 @@ const SpecialOutstandingServices = () => {
             <Button btnText={"View All Services"}></Button>
           </div>
         </div>
-        <div className="grid w-full grid-cols-1 gap-x-6  sm:grid-cols-2 lg:grid-cols-4">
-          <div className=" special-service p-[50px]   bg-[#FFFFFF] ">
+        <div className="grid py-16  w-full grid-cols-1 gap-x-6  sm:grid-cols-2 lg:grid-cols-4">
+          <div className="hover:border-b-2 hover:border-blue special-service p-[50px]   bg-[#FFFFFF] ">
             <h1 className=" mb-8">
               <svg
                 width="65"
@@ -86,88 +86,90 @@ const SpecialOutstandingServices = () => {
               </a>
             </div>
           </div>
-          <div className=" special-service p-[50px] bg-[#FFFFFF] ">
-            <h1 className=" mb-8">
-              <svg
-                width="65"
-                height="65"
-                viewBox="0 0 65 65"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="32.5" cy="32.5" r="32.5" fill="#008AFF" />
-                <path
-                  d="M40.5 28H41.75C43.0761 28 44.3479 28.5268 45.2855 29.4645C46.2232 30.4021 46.75 31.6739 46.75 33C46.75 34.3261 46.2232 35.5979 45.2855 36.5355C44.3479 37.4732 43.0761 38 41.75 38H40.5"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M20.5 28H40.5V39.25C40.5 40.5761 39.9732 41.8479 39.0355 42.7855C38.0979 43.7232 36.8261 44.25 35.5 44.25H25.5C24.1739 44.25 22.9021 43.7232 21.9645 42.7855C21.0268 41.8479 20.5 40.5761 20.5 39.25V28Z"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M25.5 19.25V23"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M30.5 19.25V23"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M35.5 19.25V23"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </h1>
-
-            <div className="flex flex-col space-y-5 ">
-              <h1 className="text-xl font-semibold ">Eneterpreneurs</h1>
-              <p className="text-sm ">
-                Lorem Ipsum is simply for dummy text of the print and type
-                setting industry.
-              </p>{" "}
-              <a className="">
-                Learn More
+          <div className=" relative">
+            <div className="hover:border-b-2 hover:border-blue absolute -top-10 special-service p-[50px] bg-[#FFFFFF] ">
+              <h1 className=" mb-8">
                 <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
+                  width="65"
+                  height="65"
+                  viewBox="0 0 65 65"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
+                  <circle cx="32.5" cy="32.5" r="32.5" fill="#008AFF" />
                   <path
-                    d="M4.16699 10H15.8337"
-                    stroke="#222D39"
+                    d="M40.5 28H41.75C43.0761 28 44.3479 28.5268 45.2855 29.4645C46.2232 30.4021 46.75 31.6739 46.75 33C46.75 34.3261 46.2232 35.5979 45.2855 36.5355C44.3479 37.4732 43.0761 38 41.75 38H40.5"
+                    stroke="white"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
                   <path
-                    d="M10 4.16667L15.8333 10L10 15.8333"
-                    stroke="#222D39"
+                    d="M20.5 28H40.5V39.25C40.5 40.5761 39.9732 41.8479 39.0355 42.7855C38.0979 43.7232 36.8261 44.25 35.5 44.25H25.5C24.1739 44.25 22.9021 43.7232 21.9645 42.7855C21.0268 41.8479 20.5 40.5761 20.5 39.25V28Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M25.5 19.25V23"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M30.5 19.25V23"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M35.5 19.25V23"
+                    stroke="white"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
                 </svg>
-              </a>
+              </h1>
+
+              <div className="flex flex-col space-y-5 ">
+                <h1 className="text-xl font-semibold ">Eneterpreneurs</h1>
+                <p className="text-sm ">
+                  Lorem Ipsum is simply for dummy text of the print and type
+                  setting industry.
+                </p>{" "}
+                <a className="">
+                  Learn More
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.16699 10H15.8337"
+                      stroke="#222D39"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 4.16667L15.8333 10L10 15.8333"
+                      stroke="#222D39"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div className=" special-service p-[50px]  bg-[#FFFFFF] ">
+          <div className="hover:border-b-2 hover:border-blue  special-service p-[50px]  bg-[#FFFFFF] ">
             <h1 className=" mb-8">
               <svg
                 width="65"
@@ -220,64 +222,66 @@ const SpecialOutstandingServices = () => {
               </a>
             </div>
           </div>
-          <div className=" special-service p-[50px] bg-[#FFFFFF] ">
-            <h1 className=" mb-8">
-              <svg
-                width="65"
-                height="65"
-                viewBox="0 0 65 65"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="32.5" cy="32.5" r="32.5" fill="#EAF8F1" />
-                <path
-                  d="M43.5 20.5L29.75 34.25"
-                  stroke="#36CD77"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M43.5 20.5L34.75 45.5L29.75 34.25L18.5 29.25L43.5 20.5Z"
-                  stroke="#36CD77"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </h1>
-
-            <div className="flex flex-col space-y-5 ">
-              <h1 className="text-xl font-semibold ">Eneterpreneurs</h1>
-              <p className="text-sm ">
-                Lorem Ipsum is simply for dummy text of the print and type
-                setting industry.
-              </p>{" "}
-              <a className="">
-                Learn More
+          <div className="relative">
+            <div className="hover:border-b-2 hover:border-blue absolute -top-10 special-service p-[50px] bg-[#FFFFFF] ">
+              <h1 className=" mb-8">
                 <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
+                  width="65"
+                  height="65"
+                  viewBox="0 0 65 65"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
+                  <circle cx="32.5" cy="32.5" r="32.5" fill="#EAF8F1" />
                   <path
-                    d="M4.16699 10H15.8337"
-                    stroke="#222D39"
+                    d="M43.5 20.5L29.75 34.25"
+                    stroke="#36CD77"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
                   <path
-                    d="M10 4.16667L15.8333 10L10 15.8333"
-                    stroke="#222D39"
+                    d="M43.5 20.5L34.75 45.5L29.75 34.25L18.5 29.25L43.5 20.5Z"
+                    stroke="#36CD77"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
                 </svg>
-              </a>
+              </h1>
+
+              <div className="flex flex-col space-y-5 ">
+                <h1 className="text-xl font-semibold ">Eneterpreneurs</h1>
+                <p className="text-sm ">
+                  Lorem Ipsum is simply for dummy text of the print and type
+                  setting industry.
+                </p>{" "}
+                <a className="">
+                  Learn More
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.16699 10H15.8337"
+                      stroke="#222D39"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 4.16667L15.8333 10L10 15.8333"
+                      stroke="#222D39"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
