@@ -10,6 +10,7 @@ import PortfolioWorks from "../PortfolioWorks/PortfolioWorks";
 import SpecialOutstandingServices from "../SpecialOutstandingServices/SpecialOutstandingServices";
 import Testimonial from "../Testimonial/Testimonial";
 import FAQ from "../FAQ/FAQ";
+import OurSkill from "../OurSkill/OurSkill";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <MarketingPartners></MarketingPartners>
       {/* <AboutUs></AboutUs> */}
       <AboutBottom></AboutBottom>
+      <OurSkill></OurSkill>
       <SpecialOutstandingServices></SpecialOutstandingServices>
       <BestkitDevelope></BestkitDevelope>
       <PortfolioWorks></PortfolioWorks>
