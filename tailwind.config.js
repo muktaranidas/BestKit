@@ -9,7 +9,7 @@ module.exports = {
       white: "#FFFFFF",
       gray: "#8492A7",
       bgColor: "#F7F9FC",
-      // lightBorder: "#DEE7EE",
+      bgWhite: "#E5E5E5",
     },
   },
   plugins: [require("daisyui")],

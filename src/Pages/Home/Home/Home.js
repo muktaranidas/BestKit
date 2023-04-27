@@ -7,6 +7,7 @@ import Button from "../../Shared/Button/Button";
 import AboutBottom from "../AboutBottom/AboutBottom";
 import BestkitDevelope from "../BestkitDevelope/BestkitDevelope";
 import PortfolioWorks from "../PortfolioWorks/PortfolioWorks";
+import SpecialOutstandingServices from "../SpecialOutstandingServices/SpecialOutstandingServices";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <MarketingPartners></MarketingPartners>
       {/* <AboutUs></AboutUs> */}
       <AboutBottom></AboutBottom>
+      <SpecialOutstandingServices></SpecialOutstandingServices>
       <BestkitDevelope></BestkitDevelope>
       <PortfolioWorks></PortfolioWorks>
       <OurCoreValuesPrinciples></OurCoreValuesPrinciples>
