@@ -6,7 +6,7 @@ import Button from "../../Shared/Button/Button";
 const Banner = () => {
   return (
     <section className="banner-bg ">
-      <div className="container widthClass flex flex-col justify-center py-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+      <div className="widthClass container  flex flex-col justify-center py-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <div className="flex flex-row ">
             <span className="mt-2 pr-4">
@@ -26,11 +26,11 @@ const Banner = () => {
                 />
               </svg>
             </span>
-            <h1 className="banner-h1 ">One Of The Best Solutions</h1>
+            <h1 className="text-blue ">One Of The Best Solutions</h1>
           </div>
           <h1 className="bannner-heading ">
             Creating Services For Your{" "}
-            <span className="banner-startup">Startup</span> Business
+            <span className="text-blue">Startup</span> Business
           </h1>
           <p className="bannner-description my-8">
             We’re a Digital Marketing Agency in Bangladesh, made up of a group

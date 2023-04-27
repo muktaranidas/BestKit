@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 const Navbar = ({ btnText }) => {
   return (
     <div className="navbar-bg  ">
-      <div className="navbar widthClass mx-auto py-8 ">
+      <div className="widthClass navbar  mx-auto py-8 ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -54,7 +54,7 @@ const Navbar = ({ btnText }) => {
             </ul>
           </div>
           <a className="font-bold normal-case text-xl">
-            Best<span className="nav-kit">kit</span>
+            Best<span className="text-blue">kit</span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

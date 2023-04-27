@@ -7,7 +7,6 @@
   font-size: 18px;
   line-height: 22px;
   text-transform: uppercase;
-  color: #008aff;
 }
 
 .bannner-heading {
@@ -27,9 +26,7 @@
   line-height: 28px;
   color: #8492a7;
 }
-.banner-startup {
-  color: #008aff;
-}
+
 .banner-input-w {
   width: 563px;
   height: 71px;

@@ -3,9 +3,9 @@ import "./MarketingPartners.css";
 
 const MarketingPartners = () => {
   return (
-    <div className="container py-6 mx-auto space-y-6 text-center lg:py-20 lg:space-y-8">
+    <div className="container widthClass py-6 mx-auto space-y-6 text-center lg:py-20 lg:space-y-8">
       <h2 className="proud   ">
-        Proud Marketing <span className=" text-[#008aff]">Partners</span> With
+        Proud Marketing <span className="text-blue">Partners</span> With
       </h2>
       <div className="flex flex-wrap justify-center lg:justify-between">
         <svg
