@@ -3,8 +3,8 @@ import "./OurCoreValuesPrinciples.css";
 
 const OurCoreValuesPrinciples = () => {
   return (
-    <section className="bg-[#F7F9FC] py-16 ">
-      <div className="container widthClass mx-auto p-4 my-6 space-y-2 text-center">
+    <section className=" bg-[#F7F9FC] py-16 ">
+      <div className="widthClass container  mx-auto p-4 my-6 space-y-2 text-center">
         <p className="uppercase font-semibold text-blue ">
           Our Core Values & Principles
         </p>
@@ -13,7 +13,7 @@ const OurCoreValuesPrinciples = () => {
         </h2>
         <span className="text-5xl text-black pt-10  font-bold">Others</span>
       </div>
-      <div className="container  grid  justify-center mx-auto gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="widthClass container  grid  justify-center mx-auto gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div className="bg-white  my-6 flex flex-col items-center p-4">
           <div className="my-6 relative">
             <h1 className="px-[50px] ">

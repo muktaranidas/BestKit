@@ -9,7 +9,7 @@ const PortfolioWorks = () => {
   return (
     <div>
       <section className=" dark:bg-gray-800 dark:text-gray-100">
-        <div className="container p-4 mx-auto space-y-8 sm:p-10">
+        <div className=" widthClass container py-4 mx-auto space-y-8 sm:py-10">
           <div className="space-y-4 text-center">
             <p className=" text-blue">Portfolio Works</p>
             <h3 className="text-2xl font-bold leading-none sm:text-5xl">
@@ -17,7 +17,7 @@ const PortfolioWorks = () => {
             </h3>
           </div>
 
-          <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
+          <header className="py-4 dark:bg-gray-800 dark:text-gray-100">
             <div className="container flex justify-between h-16 mx-auto">
               <div className="flex">
                 <ul className="items-stretch hidden space-x-3 lg:flex">
@@ -90,11 +90,11 @@ const PortfolioWorks = () => {
             </div>
           </header>
 
-          <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2">
+          <div className="grid px-4 w-full grid-cols-1 gap-6 md:grid-cols-2">
             <div className="flex flex-col ">
               <img
                 alt=""
-                className="flex-1 flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500"
+                className="flex-1  flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500"
                 src={img1}
               />
               <div className="flex flex-col">

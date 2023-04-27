@@ -8,6 +8,7 @@ import AboutBottom from "../AboutBottom/AboutBottom";
 import BestkitDevelope from "../BestkitDevelope/BestkitDevelope";
 import PortfolioWorks from "../PortfolioWorks/PortfolioWorks";
 import SpecialOutstandingServices from "../SpecialOutstandingServices/SpecialOutstandingServices";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <BestkitDevelope></BestkitDevelope>
       <PortfolioWorks></PortfolioWorks>
       <OurCoreValuesPrinciples></OurCoreValuesPrinciples>
+      <Testimonial></Testimonial>
     </div>
   );
 };
