@@ -1,10 +1,11 @@
 import React from "react";
 import "./Navbar.css";
+import Button from "../Button/Button";
 
-const Navbar = () => {
+const Navbar = ({ btnText }) => {
   return (
-    <div className="navbar-bg w-full ">
-      <div className="navbar px-24 ">
+    <div className="navbar-bg   ">
+      <div className="navbar widthClass mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,16 +29,24 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <a href="#" className="nav-link">
+                  Home
+                </a>
               </li>
               <li>
-                <a>About</a>
+                <a href="#" className="nav-link">
+                  About
+                </a>
               </li>
               <li>
-                <a>Services</a>
+                <a href="#" className="nav-link">
+                  Services
+                </a>
               </li>
               <li>
-                <a>Case Study</a>
+                <a href="#" className="nav-link">
+                  Case Study
+                </a>
               </li>
               <li>
                 <a>Blog</a>
@@ -51,48 +60,36 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a href="#" className="">
+              <a href="#" className="nav-link">
                 Home
               </a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#" className="nav-link">
+                About
+              </a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#" className="nav-link">
+                Services
+              </a>
             </li>
             <li>
-              <a href="#">Case Study</a>
+              <a href="#" className="nav-link">
+                Case Study
+              </a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#" className="nav-link">
+                {" "}
+                Blog
+              </a>
             </li>
           </ul>
         </div>
-        {/* <div className="navbar-end">
-          <a className="btn rounded-none normal-case nav-button ">
-            Contact Us
-            <span className="pl-3.5">
-              <svg
-                width="8"
-                height="14"
-                viewBox="0 0 8 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1 13L7 7L1 1"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
-          </a>
-        </div> */}
+
         <div className="navbar-end">
-          <a className="btn">Get started</a>
+          <Button btnText={"Contact Us"}></Button>
         </div>
       </div>
     </div>

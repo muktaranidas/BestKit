@@ -1,11 +1,12 @@
 import React from "react";
 import img from "../../../assets/banner/elegant-businessman-office 1.png";
 import "./Banner.css";
+import Button from "../../Shared/Button/Button";
 
 const Banner = () => {
   return (
     <section className="banner-bg ">
-      <div className="container flex flex-col justify-center py-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+      <div className="container widthClass flex flex-col justify-center py-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <div className="flex flex-row ">
             <span className="mt-2 pr-4">
@@ -41,26 +42,9 @@ const Banner = () => {
               placeholder="Enter your mail address"
               className="banner-input-w input   "
             />
-            <a className="btn rounded-none normal-case nav-button absolute right-2  ">
-              Get Started
-              <span className="pl-3.5">
-                <svg
-                  width="8"
-                  height="14"
-                  viewBox="0 0 8 14"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 13L7 7L1 1"
-                    stroke="white"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-            </a>
+            <div className=" absolute right-2  ">
+              <Button btnText={"Get Started"}></Button>
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
