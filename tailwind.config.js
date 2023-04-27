@@ -8,7 +8,7 @@ module.exports = {
       black: "#222D39",
       white: "#FFFFFF",
       gray: "#8492A7",
-      // bgColor: "#F0F9FE",
+      bgColor: "#F7F9FC",
       // lightBorder: "#DEE7EE",
     },
   },

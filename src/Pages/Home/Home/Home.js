@@ -5,6 +5,7 @@ import OurCoreValuesPrinciples from "../OurCoreValuesPrinciples/OurCoreValuesPri
 import Banner from "../Banner/Banner";
 import Button from "../../Shared/Button/Button";
 import AboutBottom from "../AboutBottom/AboutBottom";
+import BestkitDevelope from "../BestkitDevelope/BestkitDevelope";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <MarketingPartners></MarketingPartners>
       {/* <AboutUs></AboutUs> */}
       <AboutBottom></AboutBottom>
+      <BestkitDevelope></BestkitDevelope>
       <OurCoreValuesPrinciples></OurCoreValuesPrinciples>
     </div>
   );
