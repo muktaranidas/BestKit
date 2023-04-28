@@ -67,8 +67,9 @@ const Testimonial = () => {
             </button>
           </div>
         </div>
+
         <div className="container grid grid-cols-1 gap-8 lg:gap-20  md:pb-10 lg:grid-cols-3">
-          <div className="  flex flex-col items-center mx-12 lg:mx-0">
+          <div className="  flex flex-col  mx-12 lg:mx-0">
             <div className="relative  hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
               <p className="pb-[25px]">
                 <svg
@@ -96,7 +97,7 @@ const Testimonial = () => {
               </p>
             </div>
 
-            <div className="flex flex-row  mt-4 space-x-4">
+            <div className="flex flex-row px-[38px] mt-4 space-x-4">
               <img
                 src={img1}
                 alt=""
@@ -108,7 +109,8 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center mx-12 lg:mx-0">
+
+          <div className="flex flex-col mx-12 lg:mx-0">
             <div className="relative  hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
               <p className="pb-[25px]">
                 <svg
@@ -136,7 +138,7 @@ const Testimonial = () => {
               </p>
             </div>
 
-            <div className="flex flex-row  mt-4 space-x-4">
+            <div className="flex px-[38px] flex-row  mt-4 space-x-4">
               <img
                 src={img2}
                 alt=""
@@ -148,7 +150,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center mx-12 lg:mx-0">
+          <div className="flex flex-col  mx-12 lg:mx-0">
             <div className="relative  hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
               <p className="pb-[25px]">
                 <svg
@@ -176,7 +178,7 @@ const Testimonial = () => {
               </p>
             </div>
 
-            <div className="flex flex-row  mt-4 space-x-4">
+            <div className="flex px-[38px] flex-row  mt-4 space-x-4">
               <img
                 src={img3}
                 alt=""
