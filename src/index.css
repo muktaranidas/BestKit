@@ -20,5 +20,5 @@ code {
 @tailwind utilities;
 
 .widthClass {
-  @apply max-w-[1320px];
+  @apply mx-2 md:mx-4 lg:mx-6 xl:mx-auto max-w-[1320px];
 }

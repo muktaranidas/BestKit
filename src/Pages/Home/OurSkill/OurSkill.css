@@ -11,7 +11,7 @@
   width: 100%;
   height: 3px;
   background-color: GRAY;
-  border-radius: 1000px;
+  /* border-radius: 1000px; */
 }
 .skills-ul li::after {
   content: "";
@@ -21,7 +21,7 @@
   width: 0%;
   height: 3px;
   background-color: BLUE;
-  border-radius: 1000px;
+  /* border-radius: 1000px; */
   animation-duration: 2s;
   animation-delay: 1s;
   animation-timing-function: linear;

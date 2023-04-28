@@ -27,7 +27,7 @@ const OurSkill = () => {
             large & small with customer experiences.
           </p>
           <div className="flex flex-row skills-ul  sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            <ul>
+            <ul className="w-full">
               <li className="business-consulting mb-8">Business Consulting</li>
               <li className="business-startup my-8 ">Business Startup</li>
               <li className="marketing-analysis mt-8 ">Marketing Analysis</li>

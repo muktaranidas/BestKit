@@ -1,13 +1,16 @@
 import React from "react";
-import img from "../../../assets/banner/elegant-businessman-office 1.png";
+
+import bgLarge from "../../../assets/banner/Ellipse 8.jpg";
+import bgSmall from "../../../assets/banner/Ellipse 7.jpg";
 import "./Banner.css";
 import Button from "../../Shared/Button/Button";
+import BannerRight from "../BannerRight/BannerRight";
 
 const Banner = () => {
   return (
-    <section className="banner-bg ">
-      <div className="widthClass container  flex flex-col justify-center py-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-        <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+    <section className="banner-bg pt-16 ">
+      <div className="widthClass   flex flex-col justify-center items-center   lg:flex-row lg:justify-between">
+        <div className="flex w-1/2 flex-col justify-center text-center rounded-sm  lg:text-left">
           <div className="flex flex-row ">
             <span className="mt-2 pr-4">
               <svg
@@ -47,12 +50,8 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-          <img
-            src={img}
-            alt=""
-            className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
-          />
+        <div className="w-1/2">
+          <BannerRight></BannerRight>
         </div>
       </div>
     </section>
