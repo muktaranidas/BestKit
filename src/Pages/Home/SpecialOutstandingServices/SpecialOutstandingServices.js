@@ -1,6 +1,7 @@
 import React from "react";
 import "./SpecialOutstandingServices.css";
 import Button from "../../Shared/Button/Button";
+import arrow from "../../../assets/SpecialOutstanding/arrow-right.png";
 
 const SpecialOutstandingServices = () => {
   return (
@@ -59,34 +60,9 @@ const SpecialOutstandingServices = () => {
                 Lorem Ipsum is simply for dummy text of the print and type
                 setting industry.
               </p>{" "}
-              <div className="flex justify-between ">
-                <a className="">
-                  Learn More
-                  <span className="">
-                    <svg
-                      width="20"
-                      height="20"
-                      viewBox="0 0 20 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M4.16699 10H15.8337"
-                        stroke="#222D39"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M10 4.16667L15.8333 10L10 15.8333"
-                        stroke="#222D39"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                </a>
+              <div className=" flex ">
+                <a className="">Learn More</a>
+                <img src={arrow} alt="" className="pl-2" />
               </div>
             </div>
           </div>
@@ -145,31 +121,10 @@ const SpecialOutstandingServices = () => {
                   Lorem Ipsum is simply for dummy text of the print and type
                   setting industry.
                 </p>
-                <a className="">
-                  Learn More
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M4.16699 10H15.8337"
-                      stroke="#222D39"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M10 4.16667L15.8333 10L10 15.8333"
-                      stroke="#222D39"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
+                <div className=" flex ">
+                  <a className="">Learn More</a>
+                  <img src={arrow} alt="" className="pl-2" />
+                </div>
               </div>
             </div>
           </div>
@@ -199,31 +154,10 @@ const SpecialOutstandingServices = () => {
                 Lorem Ipsum is simply for dummy text of the print and type
                 setting industry.
               </p>{" "}
-              <a className="">
-                Learn More
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4.16699 10H15.8337"
-                    stroke="#222D39"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M10 4.16667L15.8333 10L10 15.8333"
-                    stroke="#222D39"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </a>
+              <div className=" flex ">
+                <a className="">Learn More</a>
+                <img src={arrow} alt="" className="pl-2" />
+              </div>
             </div>
           </div>
           <div className="relative">
@@ -260,31 +194,10 @@ const SpecialOutstandingServices = () => {
                   Lorem Ipsum is simply for dummy text of the print and type
                   setting industry.
                 </p>{" "}
-                <a className="">
-                  Learn More
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M4.16699 10H15.8337"
-                      stroke="#222D39"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M10 4.16667L15.8333 10L10 15.8333"
-                      stroke="#222D39"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
+                <div className=" flex ">
+                  <a className="">Learn More</a>
+                  <img src={arrow} alt="" className="pl-2" />
+                </div>
               </div>
             </div>
           </div>
