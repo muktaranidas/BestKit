@@ -1,10 +1,8 @@
-.learn-About-Us {
-  width: 147px;
-  height: 22px;
+.about-bottom-div {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  text-transform: uppercase;
-  color: #008aff;
+  color: #222d39;
+  padding-top: 27px;
 }
