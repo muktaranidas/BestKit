@@ -4,20 +4,17 @@ import Button from "../../Shared/Button/Button";
 
 const OurCoreValuesPrinciples = () => {
   return (
-    <section className=" bg-[#F7F9FC] py-16 ">
-      <div className="widthClass container  mx-auto p-4 my-6 space-y-2 text-center">
-        <p className="uppercase font-semibold text-blue ">
-          Our Core Values & Principles
-        </p>
-        <h2 className="text-5xl text-black py-8  font-bold">
-          What Makes Us Unique From{" "}
+    <section className="bg-[#F7F9FC] py-[140px] ">
+      <div className="widthClass container  mx-auto text-center">
+        <p className="paragraph-style-tag">Our Core Values & Principles</p>
+        <h2 className="title">
+          What Makes Us Unique From <br /> Others{" "}
         </h2>
-        <span className="text-5xl text-black pt-10  font-bold">Others</span>
       </div>
-      <div className="widthClass container  grid  justify-center mx-auto gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        <div className="bg-white  my-6 flex flex-col items-center p-4">
-          <div className="my-6 relative">
-            <h1 className="px-[50px] ">
+      <div className="widthClass mt-[45px]   grid  gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="bg-white py-[50px]    flex flex-col items-center ">
+          <div className="relative px-[50px] ">
+            <h1 className=" ">
               <svg
                 width="40"
                 height="40"
@@ -28,7 +25,6 @@ const OurCoreValuesPrinciples = () => {
                 <circle cx="20" cy="20" r="20" fill="#EBF6FF" />
               </svg>
             </h1>
-
             <h1 className="absolute left-16 top-2">
               <svg
                 width="42"
@@ -88,10 +84,10 @@ const OurCoreValuesPrinciples = () => {
               </svg>
             </h1>
 
-            <h3 className="pt-[30px] pb-[15px] text-2xl px-[50px] font-semibold ">
+            <h3 className="pt-[30px] pb-[15px]  values-principles-h3">
               Clean & Elegent Design
             </h3>
-            <div className="description  px-[50px]">
+            <div className="paragraph-normal-tag ">
               <p>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit eque
                 dolor.
@@ -99,9 +95,9 @@ const OurCoreValuesPrinciples = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white  my-6 flex flex-col items-center p-4">
-          <div className="my-6 relative">
-            <h1 className="px-[50px] ">
+        <div className="bg-white   flex flex-col items-center py-[50px]">
+          <div className="px-[50px] relative">
+            <h1 className=" ">
               <svg
                 width="40"
                 height="40"
@@ -162,10 +158,10 @@ const OurCoreValuesPrinciples = () => {
               </svg>
             </h1>
 
-            <h3 className="pt-[30px] pb-[15px] text-2xl px-[50px] font-semibold ">
-              Clean & Elegent Design
+            <h3 className="pt-[30px] pb-[15px]  values-principles-h3">
+              100% Responsive Layout
             </h3>
-            <div className="description  px-[50px]">
+            <div className="paragraph-normal-tag ">
               <p>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit eque
                 dolor.
@@ -173,9 +169,9 @@ const OurCoreValuesPrinciples = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white  my-6 flex flex-col items-center p-4">
-          <div className="my-6 relative">
-            <h1 className="px-[50px] ">
+        <div className="bg-white flex flex-col items-center py-[50px]">
+          <div className="px-[50px] relative">
+            <h1 className=" ">
               <svg
                 width="40"
                 height="40"
@@ -212,10 +208,10 @@ const OurCoreValuesPrinciples = () => {
               </svg>
             </h1>
 
-            <h3 className="pt-[30px] pb-[15px] text-2xl px-[50px] font-semibold ">
-              Clean & Elegent Design
+            <h3 className="pt-[30px] pb-[15px]  values-principles-h3">
+              Awesome Line Icon
             </h3>
-            <div className="description  px-[50px]">
+            <div className="paragraph-normal-tag ">
               <p>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit eque
                 dolor.
@@ -223,9 +219,9 @@ const OurCoreValuesPrinciples = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white  my-6 flex flex-col items-center p-4">
-          <div className="my-6 relative">
-            <h1 className="px-[50px] ">
+        <div className="bg-white  flex flex-col items-center py-[50px]">
+          <div className="px-[50px] relative">
+            <h1 className="">
               <svg
                 width="40"
                 height="40"
@@ -264,10 +260,10 @@ const OurCoreValuesPrinciples = () => {
               </svg>
             </h1>
 
-            <h3 className="pt-[30px] pb-[15px] text-2xl px-[50px] font-semibold ">
-              Clean & Elegent Design
+            <h3 className="pt-[30px] pb-[15px] w-[318px]  values-principles-h3">
+              Unlimited Component Library
             </h3>
-            <div className="description  px-[50px]">
+            <div className="paragraph-normal-tag ">
               <p>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit eque
                 dolor.
@@ -275,9 +271,9 @@ const OurCoreValuesPrinciples = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white  my-6 flex flex-col items-center p-4">
-          <div className="my-6 relative">
-            <h1 className="px-[50px] ">
+        <div className="bg-white flex flex-col items-center py-[50px]">
+          <div className=" px-[50px] relative">
+            <h1 className="">
               <svg
                 width="40"
                 height="40"
@@ -321,10 +317,10 @@ const OurCoreValuesPrinciples = () => {
               </svg>
             </h1>
 
-            <h3 className="pt-[30px] pb-[15px] text-2xl px-[50px] font-semibold ">
-              Clean & Elegent Design
+            <h3 className="pt-[30px] pb-[15px]  values-principles-h3">
+              Smooth UI Interaction
             </h3>
-            <div className="description  px-[50px]">
+            <div className="paragraph-normal-tag ">
               <p>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit eque
                 dolor.
@@ -332,9 +328,9 @@ const OurCoreValuesPrinciples = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white  my-6 flex flex-col items-center p-4">
-          <div className="my-6 relative">
-            <h1 className="px-[50px] ">
+        <div className="bg-white  flex flex-col items-center py-[50px]">
+          <div className="px-[50px] relative">
+            <h1 className="">
               <svg
                 width="40"
                 height="40"
@@ -378,10 +374,10 @@ const OurCoreValuesPrinciples = () => {
               </svg>
             </h1>
 
-            <h3 className="pt-[30px] pb-[15px] text-2xl px-[50px] font-semibold ">
+            <h3 className="pt-[30px] pb-[15px]  values-principles-h3">
               Clean & Elegent Design
             </h3>
-            <div className="description  px-[50px]">
+            <div className="paragraph-normal-tag ">
               <p>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit eque
                 dolor.
@@ -390,7 +386,7 @@ const OurCoreValuesPrinciples = () => {
           </div>
         </div>
       </div>
-      <div className="text-center ">
+      <div className="text-center mt-[55px]">
         <Button btnText={"Get In Touch"}></Button>
       </div>
     </section>
