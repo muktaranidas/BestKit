@@ -39,19 +39,18 @@ const AboutUs = () => {
 
           <div className="bg-[#EBF6FF] w-[284px]  p-[10px] mt-[40px] mb-[30px]">
             <button
+              onClick={() => myFunction("Our Mission")}
+              className={` py-2 px-4 ${btn === "Our Mission" && "bg-blue"} 
+                 border-none w-[129px]  font-bold  text-black text-center`}
+            >
+              Our Mission
+            </button>
+            <button
               onClick={() => myFunction("Our Vision")}
               className={`py-2 px-4 ml-1  ${btn === "Our Vision" && "bg-blue"}  
                border-none w-[129px]  font-bold  text-black text-center`}
             >
               Our Vision
-            </button>
-
-            <button
-              onClick={() => myFunction("Our Mission")}
-              className={` py-2 px-4 ${btn === "Our Mission" && "bg-blue"} 
-               border-none w-[129px]  font-bold  text-black text-center`}
-            >
-              Our Mission
             </button>
           </div>
 

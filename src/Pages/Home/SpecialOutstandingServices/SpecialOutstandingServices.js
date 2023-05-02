@@ -6,20 +6,20 @@ import arrow from "../../../assets/SpecialOutstanding/arrow-right.png";
 const SpecialOutstandingServices = () => {
   return (
     <section className="bgWhite  ">
-      <div className=" widthClass container  mx-auto space-y-16 sm:p-10">
+      <div className=" widthClass container  ">
         <div className=" flex flex-row  justify-between">
           <div className="space-y-2 relative">
-            <p className="text-blue ">How Can We Help?</p>
-            <h1 className="font-semibold text-5xl lg:text-3xl">
+            <p className="paragraph-style-tag ">How Can We Help?</p>
+            <h1 className="title">
               Special Outstanding Services <br />
-              <p className="pt-1"> For Startups Business</p>
+              For Startups Business
             </h1>
           </div>
-          <div className="pt-16">
+          <div className="pt-20">
             <Button btnText={"View All Services"}></Button>
           </div>
         </div>
-        <div className="grid py-16  w-full grid-cols-1 gap-x-6  sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid  mt-[103px]  w-full grid-cols-1 gap-x-6  sm:grid-cols-2 lg:grid-cols-4">
           <div className="hover:border-b-2 hover:border-blue special-service p-[50px]   bg-[#FFFFFF] ">
             <h1 className=" mb-8">
               <svg
@@ -54,20 +54,22 @@ const SpecialOutstandingServices = () => {
               </svg>
             </h1>
 
-            <div className="flex flex-col space-y-5 ">
-              <h1 className="text-xl font-semibold ">Eneterpreneurs</h1>
-              <p className="text-sm ">
+            <div className="flex flex-col ">
+              <h1 className="special-outstanding-h3 ">Eneterpreneurs</h1>
+              <p className="paragraph-normal-tag pb-[25px]">
                 Lorem Ipsum is simply for dummy text of the print and type
                 setting industry.
-              </p>{" "}
+              </p>
               <div className=" flex ">
-                <a className="">Learn More</a>
+                <a href="#" className="paragraph-normal-learn ">
+                  Learn More
+                </a>
                 <img src={arrow} alt="" className="pl-2" />
               </div>
             </div>
           </div>
           <div className=" relative">
-            <div className="hover:border-b-2 hover:border-blue absolute -top-10 special-service p-[50px] bg-[#FFFFFF] ">
+            <div className="hover:border-b-2  hover:border-blue absolute -top-10 special-service p-[50px] bg-[#FFFFFF] ">
               <h1 className=" mb-8">
                 <svg
                   width="65"
@@ -115,14 +117,16 @@ const SpecialOutstandingServices = () => {
                 </svg>
               </h1>
 
-              <div className="flex flex-col space-y-5 ">
-                <h1 className="text-xl font-semibold ">Eneterpreneurs</h1>
-                <p className="text-sm ">
+              <div className="flex flex-col ">
+                <h1 className="special-outstanding-h3 ">Business Plan</h1>
+                <p className="paragraph-normal-tag pb-[25px]">
                   Lorem Ipsum is simply for dummy text of the print and type
                   setting industry.
                 </p>
                 <div className=" flex ">
-                  <a className="">Learn More</a>
+                  <a href="#" className="paragraph-normal-learn ">
+                    Learn More
+                  </a>
                   <img src={arrow} alt="" className="pl-2" />
                 </div>
               </div>
@@ -148,14 +152,16 @@ const SpecialOutstandingServices = () => {
               </svg>
             </h1>
 
-            <div className="flex flex-col space-y-5 ">
-              <h1 className="text-xl font-semibold ">Eneterpreneurs</h1>
-              <p className="text-sm ">
+            <div className="flex flex-col ">
+              <h1 className="special-outstanding-h3 ">Capital Markets</h1>
+              <p className="paragraph-normal-tag pb-[25px]">
                 Lorem Ipsum is simply for dummy text of the print and type
                 setting industry.
-              </p>{" "}
+              </p>
               <div className=" flex ">
-                <a className="">Learn More</a>
+                <a href="#" className="paragraph-normal-learn ">
+                  Learn More
+                </a>
                 <img src={arrow} alt="" className="pl-2" />
               </div>
             </div>
@@ -188,14 +194,16 @@ const SpecialOutstandingServices = () => {
                 </svg>
               </h1>
 
-              <div className="flex flex-col space-y-5 ">
-                <h1 className="text-xl font-semibold ">Eneterpreneurs</h1>
-                <p className="text-sm ">
+              <div className="flex flex-col ">
+                <h1 className="special-outstanding-h3 ">Startups</h1>
+                <p className="paragraph-normal-tag pb-[25px]">
                   Lorem Ipsum is simply for dummy text of the print and type
                   setting industry.
-                </p>{" "}
+                </p>
                 <div className=" flex ">
-                  <a className="">Learn More</a>
+                  <a href="#" className="paragraph-normal-learn ">
+                    Learn More
+                  </a>
                   <img src={arrow} alt="" className="pl-2" />
                 </div>
               </div>
