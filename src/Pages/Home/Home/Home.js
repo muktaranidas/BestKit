@@ -14,7 +14,7 @@ import OurSkill from "../OurSkill/OurSkill";
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
+      {/* <Banner></Banner> */}
       {/* <MarketingPartners></MarketingPartners> */}
       <AboutUs></AboutUs>
       {/* <AboutBottom></AboutBottom> */}
@@ -24,7 +24,7 @@ const Home = () => {
       <PortfolioWorks></PortfolioWorks>
       <OurCoreValuesPrinciples></OurCoreValuesPrinciples>
       <Testimonial></Testimonial>
-      <FAQ></FAQ>
+      {/* <FAQ></FAQ> */}
     </div>
   );
 };

@@ -1,7 +1,27 @@
 .navbar-bg {
   background-color: #f0f9fe;
 }
+.bestkit {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
 
+.nav-link {
+  margin-right: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Dark */
+
+  color: #222d39;
+}
 .nav-link:hover {
   color: blue;
   visibility: visible;

@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 const Navbar = ({ btnText }) => {
   return (
     <div className="navbar-bg sticky top-0  z-[999]">
-      <div className="widthClass navbar  mx-auto py-8 ">
+      <div className="widthClass navbar  mx-auto pt-[49px] ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,65 +26,26 @@ const Navbar = ({ btnText }) => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content  shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a href="#" className="nav-link">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#" className="nav-link">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="nav-link">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#" className="nav-link">
-                  Case Study
-                </a>
-              </li>
-              <li>
-                <a>Blog</a>
-              </li>
+              <li className="nav-link">Home</li>
+              <li className="nav-link">About</li>
+              <li className="nav-link">Services</li>
+              <li className="nav-link">Case Study</li>
+              <li className="nav-link">Blog</li>
             </ul>
           </div>
-          <a className="font-bold normal-case text-xl">
-            Best<span className="text-blue">kit</span>
+          <a className="bestkit">
+            Best<span className="text-blue mr-[284px]">kit</span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a href="#" className="nav-link">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" className="nav-link">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="nav-link">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#" className="nav-link">
-                Case Study
-              </a>
-            </li>
-            <li>
-              <a href="#" className="nav-link">
-                {" "}
-                Blog
-              </a>
-            </li>
+          <ul className="menu menu-horizontal ">
+            <li className="nav-link">Home</li>
+            <li className="nav-link">About</li>
+            <li className="nav-link">Services</li>
+            <li className="nav-link">Case Study</li>
+            <li className="nav-link">Blog</li>
           </ul>
         </div>
 
