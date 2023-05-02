@@ -4,12 +4,12 @@ import Bestkit from "../BestKit/Bestkit";
 
 const Footer = () => {
   return (
-    <footer className="px-4  bg-[#222D39] text-white">
-      <div className="widthClass  flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+    <footer className="bg-[#222D39] text-white">
+      <div className="widthClass py-[140px]  flex flex-col justify-between  mx-auto  lg:flex-row ">
         <div className="lg:w-1/3">
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col">
             <Bestkit></Bestkit>
-            <p className=" text-[#ADB7C2] ">
+            <p className="description ">
               Bring a best development experience <br /> to designers and
               developers by offer <br /> the tools needed for having a quicks{" "}
               <br />
@@ -18,10 +18,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
-          <div className="space-y-3">
-            <h3 className="tracking-wide  dark:text-gray-50">About Company</h3>
-            <div className="flex flex-row space-x-12 ">
-              <ul className="space-y-1  text-[#ADB7C2] ">
+          <div>
+            <h3 className="footer-heading pb-[28px]">About Company</h3>
+            <div className="flex flex-row gap-[53px] p-tag-footer ">
+              <ul>
                 <li>
                   <a rel="noopener noreferrer" href="#">
                     Service
@@ -43,7 +43,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <ul className="space-y-1  text-[#ADB7C2] ">
+              <ul>
                 <li>
                   <a rel="noopener noreferrer" href="#">
                     Works
@@ -67,9 +67,9 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="space-y-3 ">
-            <h3 className="tracking-wide  dark:text-gray-50">Account</h3>
-            <ul className="space-y-1 text-[#ADB7C2] ">
+          <div>
+            <h3 className="footer-heading pb-[28px]">Account</h3>
+            <ul className="p-tag-footer">
               <li>
                 <a rel="noopener noreferrer" href="#">
                   profile
@@ -92,11 +92,11 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="space-y-3">
-            <h3 className=" dark:text-gray-50">Get In Touch</h3>
-            <ul className="space-y-1 text-[#ADB7C2] text-sm">
-              <li className="flex flex-row space-x-2">
-                <svg
+          <div>
+            <h3 className="footer-heading pb-[28px]">Get In Touch</h3>
+            <ul className="p-tag-footer">
+              <li className="flex flex-row">
+                {/* <svg
                   width="18"
                   height="18"
                   viewBox="0 0 18 18"
@@ -124,13 +124,14 @@ const Footer = () => {
                       <rect width="18" height="18" fill="white" />
                     </clipPath>
                   </defs>
-                </svg>
+                </svg> */}
+
                 <a rel="noopener noreferrer" href="#">
                   Sun-Fri: 9:00-5:00
                 </a>
               </li>
               <li className="flex flex-row space-x-2">
-                <svg
+                {/* <svg
                   width="19"
                   height="18"
                   viewBox="0 0 19 18"
@@ -163,14 +164,14 @@ const Footer = () => {
                       />
                     </clipPath>
                   </defs>
-                </svg>
+                </svg> */}
 
                 <a rel="noopener noreferrer" href="#">
                   info@example.com
                 </a>
               </li>
               <li className="flex flex-row space-x-2">
-                <svg
+                {/* <svg
                   width="19"
                   height="18"
                   viewBox="0 0 19 18"
@@ -210,14 +211,14 @@ const Footer = () => {
                       />
                     </clipPath>
                   </defs>
-                </svg>
+                </svg> */}
 
                 <a rel="noopener noreferrer" href="#">
                   0834 3849 9200
                 </a>
               </li>
               <li className="flex flex-row space-x-2">
-                <svg
+                {/* <svg
                   width="19"
                   height="18"
                   viewBox="0 0 19 18"
@@ -238,7 +239,7 @@ const Footer = () => {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                </svg>
+                </svg> */}
 
                 <a rel="noopener noreferrer" href="#">
                   16/A New York, USA
@@ -248,9 +249,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="widthClass mx-auto" />
-      <div className="widthClass mx-auto flex flex-row justify-between py-2">
-        <div className="flex flex-row space-x-4 ">
+      <hr className="widthClass hr mx-auto" />
+      <div className="widthClass mx-auto flex flex-row justify-between py-[25px]">
+        <div className="flex flex-row space-x-[25px]  ">
           <span>
             <svg
               width="10"
@@ -308,7 +309,7 @@ const Footer = () => {
             </svg>
           </span>
         </div>
-        <p>© 2020 bestkit. All rights reserved</p>
+        <p className="copyright">© 2020 bestkit. All rights reserved</p>
       </div>
     </footer>
   );

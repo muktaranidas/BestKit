@@ -1,4 +1,49 @@
-.bg-footer {
-  background-color: #222d39;
-  color: white;
+.description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  /* Text On Dark */
+
+  color: #adb7c2;
+}
+.footer-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  /* White */
+
+  color: #ffffff;
+}
+.p-tag-footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  /* or 222% */
+
+  /* Text On Dark */
+
+  color: #adb7c2;
+}
+.hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.copyright {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* Text On Dark */
+
+  color: #adb7c2;
 }

@@ -1,8 +1,9 @@
 import React from "react";
+import "./Bestkit.css";
 
 const Bestkit = () => {
   return (
-    <a className="font-bold normal-case text-xl">
+    <a className="bestkit-footer">
       Best<span className="text-blue">kit</span>
     </a>
   );
