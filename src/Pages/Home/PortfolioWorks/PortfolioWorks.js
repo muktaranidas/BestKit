@@ -16,7 +16,7 @@ const PortfolioWorks = () => {
       <header className="mb-[71px]">
         <div className="container flex justify-between mx-auto">
           <div className="flex">
-            <ul className="items-stretch hidden space-x-3 lg:flex">
+            <ul className="items-stretch hidden space-x-[30px] lg:flex">
               <li className="flex font-bold">
                 <a
                   rel="noopener noreferrer"
@@ -70,7 +70,7 @@ const PortfolioWorks = () => {
         </div>
       </header>
 
-      <div className="grid  w-full grid-cols-1 gap-6 md:grid-cols-2">
+      <div className="grid  w-full grid-cols-1 gap-[70px] md:grid-cols-2">
         <div className="flex flex-col ">
           <img
             alt=""

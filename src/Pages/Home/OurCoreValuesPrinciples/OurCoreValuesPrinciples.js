@@ -11,7 +11,7 @@ const OurCoreValuesPrinciples = () => {
           What Makes Us Unique From <br /> Others{" "}
         </h2>
       </div>
-      <div className="widthClass mt-[45px]   grid  gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="widthClass mt-[45px]   grid  gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
         <div className="bg-white py-[50px]    flex flex-col items-center ">
           <div className="relative px-[50px] ">
             <h1 className=" ">
@@ -260,7 +260,7 @@ const OurCoreValuesPrinciples = () => {
               </svg>
             </h1>
 
-            <h3 className="pt-[30px] pb-[15px] w-[318px]  values-principles-h3">
+            <h3 className="pt-[30px] pb-[15px] values-principles-h3">
               Unlimited Component Library
             </h3>
             <div className="paragraph-normal-tag ">

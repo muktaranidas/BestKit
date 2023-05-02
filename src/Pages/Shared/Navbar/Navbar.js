@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 const Navbar = ({ btnText }) => {
   return (
-    <div className="navbar-bg  ">
+    <div className="navbar-bg sticky top-0  z-[999]">
       <div className="widthClass navbar  mx-auto py-8 ">
         <div className="navbar-start">
           <div className="dropdown">

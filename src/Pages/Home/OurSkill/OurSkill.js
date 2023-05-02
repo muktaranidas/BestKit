@@ -4,7 +4,7 @@ import "./OurSkill.css";
 
 const OurSkill = () => {
   return (
-    <section className="">
+    <section className="bg-text">
       <div className=" flex flex-col my-[140px]  lg:flex-row">
         <div className="flex ">
           <img
@@ -13,7 +13,7 @@ const OurSkill = () => {
             className="object-contain h-72  sm:h-80 lg:h-[751px] xl:h-112 2xl:h-128"
           />
         </div>
-        <div className="flex flex-col justify-center mx-[100px] rounded-sm  lg:text-left">
+        <div className="flex  flex-col justify-center mx-[100px] rounded-sm  lg:text-left">
           <p className="paragraph-style-tag">Our Skill</p>
           <h1 className="title">
             We Aim to Share Knowledge, <br />

@@ -3,21 +3,22 @@ import Button from "../../Shared/Button/Button";
 import img1 from "../../../assets/Testimonial/1.jpg";
 import img2 from "../../../assets/Testimonial/2.jpg";
 import img3 from "../../../assets/Testimonial/3.jpg";
+import "./Testimonial.css";
 
 const Testimonial = () => {
   return (
-    <section className="bgWhite py-6 ">
-      <div className=" widthClass container py-4 mx-auto space-y-16 sm:py-10">
+    <section className="bgWhite my-[140px]">
+      <div className=" widthClass ">
         <div className=" flex flex-row justify-between">
-          <div className="space-y-2 relative">
-            <p className="text-blue uppercase">Testimonial</p>
-            <h1 className="font-semibold text-5xl lg:text-3xl">
+          <div className=" relative">
+            <p className="paragraph-style-tag">Testimonial</p>
+            <h1 className="title">
               See What Others Have <br />
-              <p className="pt-1"> to Say About Us</p>
+              to Say About Us
             </h1>
           </div>
-          <div className="pt-16 ">
-            <button className="bg-bgColor space-x-2 p-4">
+          <div className="pt-16 space-x-5">
+            <button className="bg-bgColor  p-4">
               <svg
                 width="17"
                 height="13"
@@ -68,7 +69,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="container grid grid-cols-1 gap-8 lg:gap-20  md:pb-10 lg:grid-cols-3">
+        <div className="container grid pt-[64px] grid-cols-1 gap-[30px] lg:gap-20  md:pb-10 lg:grid-cols-3">
           <div className="  flex flex-col  mx-12 lg:mx-0">
             <div className="relative  hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
               <p className="pb-[25px]">
@@ -89,27 +90,25 @@ const Testimonial = () => {
                   />
                 </svg>
               </p>
-
-              <p className=" py-1 text-lg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatibus quibusdam, eligendi exercitationem molestias
-                possimus facere.
+              <p className="customer-say">
+                Lorem Ipsum is a simply dummy text of an the printing and type
+                settings for has been the industry's standard dumy text the ever
+                since unknown printer.
               </p>
             </div>
 
-            <div className="flex flex-row px-[38px] mt-4 space-x-4">
+            <div className="flex flex-row px-[38px] mt-[39.23px] space-x-4">
               <img
                 src={img1}
                 alt=""
                 className="w-12 h-12 bg-center bg-cover rounded-full "
               />
-              <div>
-                <p className="text-lg font-semibold">Jhon Smith</p>
-                <p className="text-sm ">Web Developer</p>
+              <div className="pl-[20px]">
+                <p className="customer-name  pb-[5px]">Jhon Smith</p>
+                <p className="customer-position">Web Developer</p>
               </div>
             </div>
           </div>
-
           <div className="flex flex-col mx-12 lg:mx-0">
             <div className="relative  hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
               <p className="pb-[25px]">
@@ -131,22 +130,22 @@ const Testimonial = () => {
                 </svg>
               </p>
 
-              <p className=" py-1 text-lg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatibus quibusdam, eligendi exercitationem molestias
-                possimus facere.
+              <p className="customer-say">
+                Lorem Ipsum is a simply dummy text of an the printing and type
+                settings for has been the industry's standard dumy text the ever
+                since unknown printer.
               </p>
             </div>
 
-            <div className="flex px-[38px] flex-row  mt-4 space-x-4">
+            <div className="flex px-[38px] mt-[39.23px] flex-row  mt-4 space-x-4">
               <img
                 src={img2}
                 alt=""
                 className="w-12 h-12 bg-center bg-cover rounded-full "
               />
-              <div>
-                <p className="text-lg font-semibold">Jhon Smith</p>
-                <p className="text-sm ">Web Developer</p>
+              <div className="pl-[20px]">
+                <p className="customer-name  pb-[5px]">Md Shamim Hossain</p>
+                <p className="customer-position">UI/UX Designer</p>
               </div>
             </div>
           </div>
@@ -171,22 +170,22 @@ const Testimonial = () => {
                 </svg>
               </p>
 
-              <p className=" py-1 text-lg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatibus quibusdam, eligendi exercitationem molestias
-                possimus facere.
+              <p className="customer-say">
+                Lorem Ipsum is a simply dummy text of an the printing and type
+                settings for has been the industry's standard dumy text the ever
+                since unknown printer.
               </p>
             </div>
 
-            <div className="flex px-[38px] flex-row  mt-4 space-x-4">
+            <div className="flex px-[38px] mt-[39.23px] flex-row  mt-4 space-x-4">
               <img
                 src={img3}
                 alt=""
                 className="w-12 h-12 bg-center bg-cover rounded-full "
               />
-              <div>
-                <p className="text-lg font-semibold">Jhon Smith</p>
-                <p className="text-sm ">Web Developer</p>
+              <div className="pl-[20px]">
+                <p className="customer-name  pb-[5px] ">Jesica Lirona</p>
+                <p className="customer-position">Front End Developer</p>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ const AboutUs = () => {
 
   return (
     <section>
-      <div className="widthClass my-[140px] container flex flex-col  mx-auto  lg:flex-row ">
+      <div className="widthClass  my-[140px] container flex flex-col  mx-auto  lg:flex-row ">
         <div className=" relative mr-[142px] flex  justify-center   ">
           <img
             src={aboutImg}
@@ -27,12 +27,12 @@ const AboutUs = () => {
             className="w-[525px] lg:h-[665px]  object-contain h-72 sm:h-80"
           />
         </div>
-        <div className="flex my-auto flex-col text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+        <div className="flex my-auto w-[645px]   flex-col  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <p className="paragraph-style-tag">Learn About Us</p>
           <h1 className="title w-[645px]">
             Brainstorming Sessions Churning Out New Ideas
           </h1>
-          <p className="paragraph-normal-tag">
+          <p className="paragraph-normal-tag w-[645px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>
@@ -54,7 +54,7 @@ const AboutUs = () => {
             </button>
           </div>
 
-          <p className="paragraph-normal-tag">
+          <p className="paragraph-normal-tag w-[645px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
             velit amet at suscipit accumsan orci. Luctus dolor vestibulum id
             duis dolor luctus dui ac pretium. Sed donec posuere porta tortor
