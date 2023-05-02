@@ -11,6 +11,9 @@ module.exports = {
         bgColor: "#F7F9FC",
         bgWhite: "#E5E5E5",
       },
+      fontFamily: {
+        mainFont: ["Hanken Grotesk"],
+      },
     },
   },
   plugins: [require("daisyui")],

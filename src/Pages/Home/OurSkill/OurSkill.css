@@ -1,3 +1,13 @@
+.li-style {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  /* Primary */
+  color: #222d39;
+  /* padding-top: 10px; */
+}
 .skills-ul li {
   font-weight: bolder;
   position: relative;

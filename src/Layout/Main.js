@@ -5,7 +5,7 @@ import Footer from "../Pages/Shared/Footer/Footer";
 
 const Main = () => {
   return (
-    <div>
+    <div className="font-mainFont">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>

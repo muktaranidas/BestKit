@@ -14,8 +14,8 @@ const AboutUs = () => {
 
   return (
     <section>
-      <div className="widthClass container flex flex-col  mx-auto  lg:flex-row ">
-        <div className=" relative mr-[142px] flex  justify-center  mt-8 lg:mt-0  ">
+      <div className="widthClass my-[140px] container flex flex-col  mx-auto  lg:flex-row ">
+        <div className=" relative mr-[142px] flex  justify-center   ">
           <img
             src={aboutImg}
             alt=""
@@ -27,7 +27,7 @@ const AboutUs = () => {
             className="w-[525px] lg:h-[665px]  object-contain h-72 sm:h-80"
           />
         </div>
-        <div className="flex py-[66px]  flex-col text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+        <div className="flex my-auto flex-col text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <p className="paragraph-style-tag">Learn About Us</p>
           <h1 className="title w-[645px]">
             Brainstorming Sessions Churning Out New Ideas
@@ -40,8 +40,8 @@ const AboutUs = () => {
           <div className="bg-[#EBF6FF] w-[284px]  p-[10px] mt-[40px] mb-[30px]">
             <button
               onClick={() => myFunction("Our Vision")}
-              className={`py-2 px-4  ${btn === "Our Vision" && "bg-blue"}  
-               border-none  font-bold  text-black text-right`}
+              className={`py-2 px-4 ml-1  ${btn === "Our Vision" && "bg-blue"}  
+               border-none w-[129px]  font-bold  text-black text-center`}
             >
               Our Vision
             </button>
@@ -49,7 +49,7 @@ const AboutUs = () => {
             <button
               onClick={() => myFunction("Our Mission")}
               className={` py-2 px-4 ${btn === "Our Mission" && "bg-blue"} 
-               border-none font-bold  text-black text-right`}
+               border-none w-[129px]  font-bold  text-black text-center`}
             >
               Our Mission
             </button>
