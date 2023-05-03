@@ -71,7 +71,7 @@ const Testimonial = () => {
 
         <div className="container grid pt-[64px] grid-cols-1 gap-[30px] lg:gap-20  md:pb-10 lg:grid-cols-3">
           <div className="  flex flex-col  mx-12 lg:mx-0">
-            <div className="relative  hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
+            <div className="relative py-[40px] px-[38px]  bg-bgColor">
               <p className="pb-[25px]">
                 <svg
                   width="43"

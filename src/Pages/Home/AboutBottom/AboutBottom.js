@@ -1,9 +1,11 @@
 import React from "react";
+import "./AboutBottom.css";
 
 const AboutBottom = () => {
   return (
-    <section className="my-6 ">
-      <div className="widthClass container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
+    <section className="widthClass">
+      <hr className="hr-style mb-[62px]" />
+      <div className=" container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
         <div className="flex py-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
           <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
             <span className="">
@@ -45,7 +47,7 @@ const AboutBottom = () => {
             </span>
           </div>
           <div className="flex flex-col justify-center align-middle">
-            <p className="text-3xl font-semibold leading-none mb-2">434</p>
+            <p className="text-3xl font-semibold leading-none mb-2">834</p>
             <p className="capitalize text-gray">Startups</p>
           </div>
         </div>
@@ -158,6 +160,7 @@ const AboutBottom = () => {
           </div>
         </div>
       </div>
+      <hr className="hr-style mt-[59px]" />
     </section>
   );
 };
