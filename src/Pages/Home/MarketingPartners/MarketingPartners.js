@@ -14,9 +14,10 @@ import "swiper/css/scrollbar";
 
 const MarketingPartners = () => {
   return (
-    <div className="container widthClass py-6 mx-auto space-y-6 text-center lg:py-20 lg:space-y-8">
-      <h2 className="proud   ">
-        Proud Marketing <span className="text-blue">Partners</span> With
+    <div className="container mt-[140px] widthClass  mx-auto text-center">
+      <h2 className="proud mb-[60px]">
+        Proud Marketing <span className="paragraph-style-tag">Partners</span>{" "}
+        With
       </h2>
       <div className="">
         <Swiper
