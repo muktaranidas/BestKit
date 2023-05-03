@@ -14,17 +14,17 @@ import OurSkill from "../OurSkill/OurSkill";
 const Home = () => {
   return (
     <div>
-      {/* <Banner></Banner> */}
-      {/* <MarketingPartners></MarketingPartners> */}
+      <Banner></Banner>
+      <MarketingPartners></MarketingPartners>
       <AboutUs></AboutUs>
-      {/* <AboutBottom></AboutBottom> */}
+      <AboutBottom></AboutBottom>
       <OurSkill></OurSkill>
       <SpecialOutstandingServices></SpecialOutstandingServices>
       <BestkitDevelope></BestkitDevelope>
       <PortfolioWorks></PortfolioWorks>
       <OurCoreValuesPrinciples></OurCoreValuesPrinciples>
       <Testimonial></Testimonial>
-      {/* <FAQ></FAQ> */}
+      <FAQ></FAQ>
     </div>
   );
 };

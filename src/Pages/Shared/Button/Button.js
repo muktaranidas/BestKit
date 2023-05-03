@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = ({ btnText }) => {
   return (
-    <a className="btn rounded-sm bg-[#008AFF] px-[30px] pt-[18px] pb-[15px]  border-none  ">
+    <a className="btn rounded-sm bg-[#008AFF] h-[55px] px-[30px] pt-[18px] pb-[15px]  border-none  ">
       {btnText}
       <span className="pl-3.5">
         <svg

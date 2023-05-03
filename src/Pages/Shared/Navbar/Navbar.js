@@ -1,10 +1,12 @@
 import React from "react";
 import "./Navbar.css";
 import Button from "../Button/Button";
+import logo from "../../../assets/Navbar/Logo.png";
 
 const Navbar = ({ btnText }) => {
   return (
-    <div className="navbar-bg sticky top-0  z-[999]">
+    // <div className="navbar-bg sticky top-0  z-[999]">
+    <div className="navbar-bg ">
       <div className="widthClass navbar  mx-auto pt-[49px] ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -35,8 +37,8 @@ const Navbar = ({ btnText }) => {
               <li className="nav-link">Blog</li>
             </ul>
           </div>
-          <a className="bestkit">
-            Best<span className="text-blue mr-[284px]">kit</span>
+          <a className="">
+            <img src={logo} alt="" />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

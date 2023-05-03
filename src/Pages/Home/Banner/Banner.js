@@ -29,26 +29,53 @@ const Banner = () => {
                 />
               </svg>
             </span>
-            <h1 className="text-blue ">One Of The Best Solutions</h1>
+            <h1 className="paragraph-style-tag">One Of The Best Solutions</h1>
           </div>
-          <h1 className="bannner-heading ">
+          <h1 className="banner-heading">
             Creating Services For Your{" "}
             <span className="text-blue">Startup</span> Business
           </h1>
-          <p className="bannner-description my-8">
+          <p className="paragraph-normal-tag pb-[55px]">
             We’re a Digital Marketing Agency in Bangladesh, made up of a group
             of passionate individuals.
           </p>
-          <div className="relative flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            <input
-              type="email"
-              placeholder="Enter your mail address"
-              className="banner-input-w input   "
-            />
-            <div className=" absolute right-2  ">
+          <label className="relative flex flex-col   sm:items-center sm:justify-center sm:flex-row  lg:justify-start">
+            <div className="flex flex-row ">
+              <span className="absolute pl-[30px] pt-[26px]">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.33366 3.33325H16.667C17.5837 3.33325 18.3337 4.08325 18.3337 4.99992V14.9999C18.3337 15.9166 17.5837 16.6666 16.667 16.6666H3.33366C2.41699 16.6666 1.66699 15.9166 1.66699 14.9999V4.99992C1.66699 4.08325 2.41699 3.33325 3.33366 3.33325Z"
+                    stroke="#8492A7"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18.3337 5L10.0003 10.8333L1.66699 5"
+                    stroke="#8492A7"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+
+              <input
+                type="email"
+                placeholder="Enter your mail address"
+                className="banner-input-w input  pt-[26px] pb-[23px]  pl-[65px]"
+              />
+            </div>
+            <div className="absolute  right-28">
               <Button btnText={"Get Started"}></Button>
             </div>
-          </div>
+          </label>
         </div>
         <div className="w-1/2">
           <BannerRight></BannerRight>
