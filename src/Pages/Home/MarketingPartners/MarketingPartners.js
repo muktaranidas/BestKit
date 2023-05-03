@@ -2,7 +2,7 @@ import React from "react";
 import "./MarketingPartners.css";
 
 // import Swiper core and required modules
-import { Navigation, Scrollbar, A11y, Pagination } from "swiper";
+import { Navigation, Scrollbar, A11y, Pagination, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -22,10 +22,16 @@ const MarketingPartners = () => {
       <div className="">
         <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
           // spaceBetween={10}
           slidesPerView={6}
-          navigation
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+          // navigation={true}
+          // navigation
           // pagination={{ clickable: true }}
           // scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}

@@ -1,5 +1,4 @@
 import React from "react";
-
 import bgLarge from "../../../assets/banner/Ellipse 8.jpg";
 import bgSmall from "../../../assets/banner/Ellipse 7.jpg";
 import "./Banner.css";
@@ -39,40 +38,39 @@ const Banner = () => {
             We’re a Digital Marketing Agency in Bangladesh, made up of a group
             of passionate individuals.
           </p>
-          <label className="relative flex flex-col   sm:items-center sm:justify-center sm:flex-row  lg:justify-start">
-            <div className="flex flex-row ">
-              <span className="absolute pl-[30px] pt-[26px]">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M3.33366 3.33325H16.667C17.5837 3.33325 18.3337 4.08325 18.3337 4.99992V14.9999C18.3337 15.9166 17.5837 16.6666 16.667 16.6666H3.33366C2.41699 16.6666 1.66699 15.9166 1.66699 14.9999V4.99992C1.66699 4.08325 2.41699 3.33325 3.33366 3.33325Z"
-                    stroke="#8492A7"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M18.3337 5L10.0003 10.8333L1.66699 5"
-                    stroke="#8492A7"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-
+          <label className="flex banner-label mb-7 rounded-lg p-2.5 items-center">
+            <span className="">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.33366 3.33325H16.667C17.5837 3.33325 18.3337 4.08325 18.3337 4.99992V14.9999C18.3337 15.9166 17.5837 16.6666 16.667 16.6666H3.33366C2.41699 16.6666 1.66699 15.9166 1.66699 14.9999V4.99992C1.66699 4.08325 2.41699 3.33325 3.33366 3.33325Z"
+                  stroke="#8492A7"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18.3337 5L10.0003 10.8333L1.66699 5"
+                  stroke="#8492A7"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <form action="" className="grow ">
               <input
                 type="email"
                 placeholder="Enter your mail address"
-                className="banner-input-w input  pt-[26px] pb-[23px]  pl-[65px]"
+                className="banner-input-w  focus:outline-none input bg-transparent w-full"
               />
-            </div>
-            <div className="absolute  right-28">
+            </form>
+            <div className="">
               <Button btnText={"Get Started"}></Button>
             </div>
           </label>

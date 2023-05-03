@@ -1,11 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import img1 from "../../../assets/Portfolio/img1.png";
 import img2 from "../../../assets/Portfolio/img2.png";
 import img3 from "../../../assets/Portfolio/img3.png";
 import img4 from "../../../assets/Portfolio/img4.png";
 import Button from "../../Shared/Button/Button";
 import "./PortfolioWorks.css";
+import PortfolioWorkCard from "./PortfolioWorkCard";
 const PortfolioWorks = () => {
+  const projects = [
+    {
+      id: 1,
+      img: img1,
+      position: "Web Development",
+      role: "Development",
+      title: "Quillow Learning Platform Dashboard",
+    },
+    {
+      id: 2,
+      img: img2,
+      position: "Product Development",
+      role: "Development",
+      title: "Quillow Learning Platform Dashboard",
+    },
+    {
+      id: 3,
+      img: img3,
+      position: "Web Development",
+      role: "Design",
+      title: "Quillow Learning Platform Dashboard",
+    },
+    {
+      id: 4,
+      img: img4,
+      position: "Web Development",
+      role: "Branding",
+      title: "Quillow Learning Platform Dashboard",
+    },
+  ];
+
+  const [position, setPosition] = useState("");
+
+  const handleFilter = (text) => {
+    setPosition(text);
+  };
+
   return (
     <div className=" widthClass my-[140px]">
       <div className=" text-center">
@@ -26,38 +64,54 @@ const PortfolioWorks = () => {
                   Filter by:
                 </a>
               </li>
-              <li className="flex  portfolio-heading">
+              <li
+                className="flex  portfolio-heading cursor-pointer"
+                onClick={() => handleFilter("All")}
+              >
                 <a
                   rel="noopener noreferrer"
-                  href="#"
-                  className="flex items-center px-4 -mb-1 "
+                  className={`flex items-center px-4 -mb-1 ${
+                    position === "All " && "text-blue "
+                  } `}
                 >
                   All
                 </a>
               </li>
-              <li className="flex portfolio-heading">
+              <li
+                className="flex portfolio-heading cursor-pointer"
+                onClick={() => handleFilter("Development")}
+              >
                 <a
                   rel="noopener noreferrer"
-                  href="#"
-                  className="flex items-center px-4 -mb-1  dark:border-transparent"
+                  className={`flex items-center px-4 -mb-1  dark:border-transparent ${
+                    position === "Development" && "text-blue"
+                  }`}
                 >
                   Development
                 </a>
               </li>
-              <li className="flex portfolio-heading">
+              <li
+                className="flex portfolio-heading  cursor-pointer"
+                onClick={() => handleFilter("Design")}
+              >
                 <a
                   rel="noopener noreferrer"
-                  href="#"
-                  className="flex items-center px-4 -mb-1  dark:border-transparent"
+                  className={`flex items-center px-4 -mb-1  dark:border-transparent ${
+                    position === "Design" && "text-blue"
+                  }`}
                 >
                   Design
                 </a>
               </li>
-              <li className="flex portfolio-heading">
+              <li
+                className="flex portfolio-heading cursor-pointer"
+                onClick={() => handleFilter("Branding")}
+              >
                 <a
                   rel="noopener noreferrer"
-                  href="#"
-                  className="flex items-center px-4 -mb-1  dark:border-transparent"
+                  className={`flex items-center px-4 -mb-1  dark:border-transparent ${
+                    position === "Branding" && "text-blue"
+                  }`}
                 >
                   Branding
                 </a>
@@ -71,54 +125,13 @@ const PortfolioWorks = () => {
       </header>
 
       <div className="grid  w-full grid-cols-1 gap-[70px] md:grid-cols-2">
-        <div className="flex flex-col ">
-          <img
-            alt=""
-            className="flex-1  flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500"
-            src={img1}
-          />
-          <div className="flex flex-col">
-            <p className="paragraph-normal-tag">Web developer</p>
-            <h4 className="portfolio-h2">
-              Quillow Learning Platform Dashboard
-            </h4>
-          </div>
-        </div>
-        <div className="flex flex-col ">
-          <img
-            alt=""
-            className="flex-1 flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500"
-            src={img2}
-          />
-          <div className="flex flex-col">
-            <p className="paragraph-normal-tag">Product Development</p>
-            <h4 className="portfolio-h2">
-              Database Product Platform Dashboard
-            </h4>
-          </div>
-        </div>
-        <div className="flex flex-col ">
-          <img
-            alt=""
-            className="flex-1 flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500"
-            src={img3}
-          />
-          <div className="flex flex-col">
-            <p className="paragraph-normal-tag">Web developer</p>
-            <h4 className="portfolio-h2">Beskit Website Development</h4>
-          </div>
-        </div>
-        <div className="flex flex-col ">
-          <img
-            alt=""
-            className="flex-1 flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500"
-            src={img4}
-          />
-          <div className="flex flex-col">
-            <p className="paragraph-normal-tag">Web developer</p>
-            <h4 className="portfolio-h2">Bestkit Software Solutions</h4>
-          </div>
-        </div>
+        {projects.map((project) => (
+          <PortfolioWorkCard
+            key={project.id}
+            project={project}
+            post={position}
+          ></PortfolioWorkCard>
+        ))}
       </div>
     </div>
   );
