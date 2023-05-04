@@ -119,7 +119,6 @@ const Testimonial = () => {
                 since unknown printer.
               </p>
             </div>
-
             <div className="flex flex-row px-[38px] mt-[39.23px] space-x-4">
               <img
                 src={img1}
