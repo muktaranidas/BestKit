@@ -43,13 +43,23 @@ const Navbar = ({ btnText }) => {
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal ">
-            <li className="nav-link ">Home</li>
-            <li className="nav-link">About</li>
-            <li className="nav-link">Services</li>
-            <li className="nav-link">Case Study</li>
-            <li className="nav-link">Blog</li>
-          </ul>
+          <div className="menu menu-horizontal ">
+            <a href="#" className="nav-link ">
+              Home
+            </a>
+            <a href="#" className="nav-link">
+              About
+            </a>
+            <a href="#" className="nav-link">
+              Services
+            </a>
+            <a href="#" className="nav-link">
+              Case Study
+            </a>
+            <a href="#" className="nav-link">
+              Blog
+            </a>
+          </div>
         </div>
 
         <div className="navbar-end">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../Shared/Button/Button";
 import img1 from "../../../assets/Testimonial/1.jpg";
 import img2 from "../../../assets/Testimonial/2.jpg";
@@ -6,6 +6,12 @@ import img3 from "../../../assets/Testimonial/3.jpg";
 import "./Testimonial.css";
 
 const Testimonial = () => {
+  const [btn, setBtn] = useState("");
+  console.log(btn);
+
+  function myFunction(text) {
+    setBtn(text);
+  }
   return (
     <section className="bgWhite my-[140px]">
       <div className=" widthClass ">
@@ -69,12 +75,12 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="container grid pt-[64px] grid-cols-1 gap-[30px] lg:gap-20  lg:grid-cols-3">
+        <div className="container grid pt-[64px] justify-center grid-cols-1 gap-[30px] lg:grid-cols-3">
           <div className="  flex flex-col  ">
-            <div className="relative w-[420px] h-[246.77px]  text-[#F7F9FC]  hover:text-blue ">
-              <div className="absolute  z-[-1]">
+            <div className="relative  h-[246.77px]  text-[#F7F9FC]  hover:text-blue ">
+              <div className="absolute  z-[-5]">
                 <svg
-                  width="420"
+                  // width="400"
                   height="266"
                   viewBox="0 0 420 266"
                   fill="none"
@@ -127,7 +133,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="flex flex-col ">
-            <div className="relative w-[420px] h-[246.77px] z-[11] text-[#F7F9FC]  hover:text-blue ">
+            <div className="relative  h-[246.77px] z-[11] text-[#F7F9FC]  hover:text-blue ">
               <div className="absolute  z-[-5]">
                 <svg
                   width="420"
@@ -183,7 +189,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="flex flex-col  ">
-            <div className="relative w-[420px] h-[246.77px] z-[11] text-[#F7F9FC]  hover:text-blue ">
+            <div className="relative  h-[246.77px] z-[11] text-[#F7F9FC]  hover:text-blue ">
               <div className="absolute  z-[-5]">
                 <svg
                   width="420"

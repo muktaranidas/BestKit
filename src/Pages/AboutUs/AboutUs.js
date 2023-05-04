@@ -3,6 +3,7 @@ import "./AboutUs.css";
 import aboutImg from "../../../src/assets/about/different-coworkers-having-meeting 2.png";
 import bgImg from "../../../src/assets/about/Bg.png";
 import Button from "../Shared/Button/Button";
+import AboutBtnDescription from "./AboutBtnDescription";
 
 const AboutUs = () => {
   const [btn, setBtn] = useState("Our Mission");
@@ -11,6 +12,19 @@ const AboutUs = () => {
   function myFunction(text) {
     setBtn(text);
   }
+
+  const descriptions = [
+    {
+      id: 1,
+      role: "Our Mission",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet velit amet at suscipit accumsan orci. Luctus dolor vestibulum id duis dolor luctus dui ac pretium. Sed donec posuere porta tortor posuere enim ut.",
+    },
+    {
+      id: 2,
+      role: "Our Vision",
+      text: "r luctus dui ac pretium. Sed donec posuere porta tortor posuere enim utipsum dolor sit amet, consectetur adipiscing elit. Imperdiet velit amet at suscipit accumsan orci. Luctus dolor vestibulum id duis dolo",
+    },
+  ];
 
   return (
     <section>
@@ -54,12 +68,15 @@ const AboutUs = () => {
             </button>
           </div>
 
-          <p className="paragraph-normal-tag w-[645px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
-            velit amet at suscipit accumsan orci. Luctus dolor vestibulum id
-            duis dolor luctus dui ac pretium. Sed donec posuere porta tortor
-            posuere enim ut.
-          </p>
+          <div>
+            {descriptions.map((description) => (
+              <AboutBtnDescription
+                key={description.id}
+                description={description}
+                btn={btn}
+              ></AboutBtnDescription>
+            ))}
+          </div>
 
           <div className="flex flex-col">
             <div className="flex flex-row about-bottom-div">

@@ -32,6 +32,7 @@ const SwiperButton = () => {
           />
         </svg>
       </button>
+
       <button onClick={() => swiper.slideNext()} className="bg-blue  p-4">
         <svg
           width="17"

@@ -3,17 +3,21 @@ import React, { useState } from "react";
 const FQA = ({ descriptionitem }) => {
   const { id, title, description } = descriptionitem;
 
-  const [click, setClick] = useState(-1);
+  const [openIndex, setOpenIndex] = useState(-1);
 
-  const handleDescription = (id) => {
-    setClick((prevState) => (prevState === id ? -1 : id));
+  const handleToggle = (index) => {
+    if (openIndex === index) {
+      setOpenIndex(-1);
+    } else {
+      setOpenIndex(index);
+    }
   };
 
   return (
     <div className="bg-white   p-[35px]">
       <div className="flex flex-row  justify-between">
         <p className=" outline-none cursor-pointer tab-title ">{title}</p>
-        <button onClick={() => handleDescription(id)}>
+        <button onClick={() => handleToggle(id)}>
           <svg
             width="14"
             height="14"
@@ -30,7 +34,9 @@ const FQA = ({ descriptionitem }) => {
           </svg>
         </button>
       </div>
-      <div className={`pt-[25px] `}>{click === id && <p>{description}</p>}</div>
+      <div className={`pt-[25px] `}>
+        {openIndex === id && <p>{description}</p>}
+      </div>
     </div>
   );
 };

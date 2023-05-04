@@ -23,9 +23,9 @@
   color: #222d39;
 }
 .nav-link:hover {
-  color: blue;
+  color: #008aff;
   visibility: visible;
 }
 .nav-link:focus {
-  color: blue;
+  color: #008aff;
 }
