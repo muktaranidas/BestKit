@@ -69,10 +69,27 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="container grid pt-[64px] grid-cols-1 gap-[30px] lg:gap-20  md:pb-10 lg:grid-cols-3">
-          <div className="  flex flex-col  mx-12 lg:mx-0">
-            <div className="relative hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
-              <p className="pb-[25px]">
+        <div className="container grid pt-[64px] grid-cols-1 gap-[30px] lg:gap-20  lg:grid-cols-3">
+          <div className="  flex flex-col  ">
+            <div className="relative w-[420px] h-[246.77px]  text-[#F7F9FC]  hover:text-blue ">
+              <div className="absolute  z-[-1]">
+                <svg
+                  width="420"
+                  height="266"
+                  viewBox="0 0 420 266"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 0C1.34315 0 0 1.34314 0 3V243.774C0 245.431 1.34314 246.774 2.99999 246.774H58.0969L70.9391 265.565C71.3331 266.141 72.1816 266.147 72.583 265.575L85.7893 246.774H417C418.657 246.774 420 245.431 420 243.774V3C420 1.34315 418.657 0 417 0H3Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+
+              <p className="pb-[25px] pt-[40px] pl-[38px] absolute">
                 <svg
                   width="43"
                   height="30"
@@ -90,7 +107,7 @@ const Testimonial = () => {
                   />
                 </svg>
               </p>
-              <p className="customer-say">
+              <p className="customer-say   h-[112px] px-[40px] pt-[95px] pb-[38px]">
                 Lorem Ipsum is a simply dummy text of an the printing and type
                 settings for has been the industry's standard dumy text the ever
                 since unknown printer.
@@ -109,9 +126,26 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col mx-12 lg:mx-0">
-            <div className="relative  hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
-              <p className="pb-[25px]">
+          <div className="flex flex-col ">
+            <div className="relative w-[420px] h-[246.77px] z-[11] text-[#F7F9FC]  hover:text-blue ">
+              <div className="absolute  z-[-5]">
+                <svg
+                  width="420"
+                  height="266"
+                  viewBox="0 0 420 266"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 0C1.34315 0 0 1.34314 0 3V243.774C0 245.431 1.34314 246.774 2.99999 246.774H58.0969L70.9391 265.565C71.3331 266.141 72.1816 266.147 72.583 265.575L85.7893 246.774H417C418.657 246.774 420 245.431 420 243.774V3C420 1.34315 418.657 0 417 0H3Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+
+              <p className="pb-[25px] pt-[40px] pl-[38px] absolute">
                 <svg
                   width="43"
                   height="30"
@@ -129,8 +163,7 @@ const Testimonial = () => {
                   />
                 </svg>
               </p>
-
-              <p className="customer-say">
+              <p className="customer-say px-[40px] pt-[95px] pb-[38px]">
                 Lorem Ipsum is a simply dummy text of an the printing and type
                 settings for has been the industry's standard dumy text the ever
                 since unknown printer.
@@ -149,9 +182,26 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col  mx-12 lg:mx-0">
-            <div className="relative  hover:bg-blue py-[40px] px-[38px]  bg-bgColor">
-              <p className="pb-[25px]">
+          <div className="flex flex-col  ">
+            <div className="relative w-[420px] h-[246.77px] z-[11] text-[#F7F9FC]  hover:text-blue ">
+              <div className="absolute  z-[-5]">
+                <svg
+                  width="420"
+                  height="266"
+                  viewBox="0 0 420 266"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 0C1.34315 0 0 1.34314 0 3V243.774C0 245.431 1.34314 246.774 2.99999 246.774H58.0969L70.9391 265.565C71.3331 266.141 72.1816 266.147 72.583 265.575L85.7893 246.774H417C418.657 246.774 420 245.431 420 243.774V3C420 1.34315 418.657 0 417 0H3Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+
+              <p className="pb-[25px] pt-[40px] pl-[38px] absolute">
                 <svg
                   width="43"
                   height="30"
@@ -169,8 +219,7 @@ const Testimonial = () => {
                   />
                 </svg>
               </p>
-
-              <p className="customer-say">
+              <p className="customer-say px-[40px] pt-[95px] pb-[38px]">
                 Lorem Ipsum is a simply dummy text of an the printing and type
                 settings for has been the industry's standard dumy text the ever
                 since unknown printer.

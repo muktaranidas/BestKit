@@ -11,7 +11,7 @@ const Banner = () => {
       <div className="widthClass   flex flex-col justify-center items-center   lg:flex-row lg:justify-between">
         <div className="flex w-1/2 flex-col justify-center text-center rounded-sm  lg:text-left">
           <div className="flex flex-row ">
-            <span className="mt-2 pr-4">
+            <span className="mt-2 pr-[16px]">
               <svg
                 width="100"
                 height="2"
@@ -38,8 +38,8 @@ const Banner = () => {
             We’re a Digital Marketing Agency in Bangladesh, made up of a group
             of passionate individuals.
           </p>
-          <label className="flex banner-label mb-7 rounded-lg p-2.5 items-center">
-            <span className="">
+          <label className="flex banner-label  rounded-lg items-center">
+            <span className="pl-[30px] pt-[26px] pb-[25px]">
               <svg
                 width="20"
                 height="20"
@@ -70,7 +70,7 @@ const Banner = () => {
                 className="banner-input-w  focus:outline-none input bg-transparent w-full"
               />
             </form>
-            <div className="">
+            <div className="pr-2">
               <Button btnText={"Get Started"}></Button>
             </div>
           </label>

@@ -38,7 +38,7 @@ const PortfolioWorks = () => {
     },
   ];
 
-  const [position, setPosition] = useState("");
+  const [position, setPosition] = useState("All");
 
   const handleFilter = (text) => {
     setPosition(text);
@@ -71,7 +71,7 @@ const PortfolioWorks = () => {
                 <a
                   rel="noopener noreferrer"
                   className={`flex items-center px-4 -mb-1 ${
-                    position === "All " && "text-blue "
+                    position === "All" && "text-blue "
                   } `}
                 >
                   All
