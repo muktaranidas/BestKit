@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutBottom.css";
+import NumberCounter from "number-counter";
 
 const AboutBottom = () => {
   return (
@@ -47,7 +48,14 @@ const AboutBottom = () => {
             </span>
           </div>
           <div className="flex flex-col justify-center align-middle">
-            <p className="text-3xl font-semibold leading-none mb-2">834</p>
+            <NumberCounter
+              className="increment text-3xl font-semibold leading-none mb-2"
+              end={834}
+              delay={5}
+              preFix=""
+              postFix=""
+            ></NumberCounter>
+
             <p className="capitalize text-gray">Startups</p>
           </div>
         </div>
@@ -73,7 +81,14 @@ const AboutBottom = () => {
             </span>
           </div>
           <div className="flex flex-col justify-center align-middle">
-            <p className="text-3xl font-semibold leading-none mb-2">372</p>
+            {" "}
+            <NumberCounter
+              className="increment text-3xl font-semibold leading-none mb-2"
+              end={372}
+              delay={5}
+              preFix=""
+              postFix=""
+            ></NumberCounter>
             <p className="capitalize text-gray">Projects</p>
           </div>
         </div>
@@ -106,7 +121,13 @@ const AboutBottom = () => {
             </span>
           </div>
           <div className="flex flex-col justify-center align-middle">
-            <p className="text-3xl font-semibold leading-none mb-2">14</p>
+            <NumberCounter
+              className="increment text-3xl font-semibold leading-none mb-2"
+              end={14}
+              delay={5}
+              preFix=""
+              postFix=""
+            ></NumberCounter>
             <p className="capitalize text-gray">Award</p>
           </div>
         </div>
@@ -155,7 +176,13 @@ const AboutBottom = () => {
             </span>
           </div>
           <div className="flex flex-col justify-center align-middle">
-            <p className="text-3xl font-semibold leading-none mb-2">43</p>
+            <NumberCounter
+              className="increment text-3xl font-semibold leading-none mb-2"
+              end={43}
+              delay={5}
+              preFix=""
+              postFix=""
+            ></NumberCounter>
             <p className="capitalize text-gray">Partners</p>
           </div>
         </div>
