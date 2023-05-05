@@ -38,7 +38,8 @@ const Banner = () => {
             We’re a Digital Marketing Agency in Bangladesh, made up of a group
             of passionate individuals.
           </p>
-          <label className="flex banner-label  rounded-lg items-center">
+
+          <label className="flex banner-label    rounded-lg items-center">
             <span className="pl-[30px] pt-[26px] pb-[25px]">
               <svg
                 width="20"
@@ -67,7 +68,7 @@ const Banner = () => {
               <input
                 type="email"
                 placeholder="Enter your mail address"
-                className="banner-input-w  focus:outline-none input bg-transparent w-full"
+                className="banner-input-w  focus:outline-none  input bg-transparent w-full"
               />
             </form>
             <div className="pr-2">

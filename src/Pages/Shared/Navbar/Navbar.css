@@ -22,6 +22,9 @@
 
   color: #222d39;
 }
+.blog {
+  margin-right: 0;
+}
 .nav-link:hover {
   color: #008aff;
   visibility: visible;

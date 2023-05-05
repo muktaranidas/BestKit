@@ -37,17 +37,17 @@ const Navbar = ({ btnText }) => {
               <li className="nav-link">Blog</li>
             </ul>
           </div>
-          <a className="">
+          <a href="#" className="">
             <img src={logo} alt="" className="w-4/3 lg:w-full" />
           </a>
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <div className="menu menu-horizontal ">
-            <a href="#" className="nav-link ">
+          <div className="menu menu-horizontal grid-">
+            <a href="#" className="nav-link">
               Home
             </a>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link ">
               About
             </a>
             <a href="#" className="nav-link">
@@ -56,7 +56,7 @@ const Navbar = ({ btnText }) => {
             <a href="#" className="nav-link">
               Case Study
             </a>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link blog">
               Blog
             </a>
           </div>

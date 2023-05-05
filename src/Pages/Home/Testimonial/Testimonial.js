@@ -16,12 +16,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const Testimonial = () => {
-  const [btn, setBtn] = useState("");
-  console.log(btn);
-
-  function myFunction(text) {
-    setBtn(text);
-  }
   return (
     <section className="bgWhite my-[140px]">
       <div className=" widthClass ">
