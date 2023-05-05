@@ -19,8 +19,8 @@ const SpecialOutstandingServices = () => {
             <Button btnText={"View All Services"}></Button>
           </div>
         </div>
-        <div className="grid  mt-[103px]  w-full grid-cols-1 gap-x-6  sm:grid-cols-2 lg:grid-cols-4">
-          <div className="hover:border-b-2 border-b-2 hover:border-blue special-service p-[50px]  border-transparent  bg-[#FFFFFF] ">
+        <div className="grid  mt-[103px] w-full grid-cols-1 gap-x-6  sm:grid-cols-2 lg:grid-cols-4">
+          <div className="hover:border-b-2 transition-all duration-300    hover:border-blue special-service p-[50px]  border-transparent  bg-[#FFFFFF] ">
             <h1 className=" mb-8">
               <svg
                 width="65"
@@ -68,8 +68,8 @@ const SpecialOutstandingServices = () => {
               </div>
             </div>
           </div>
-          <div className=" relative">
-            <div className="hover:border-b-2  hover:border-blue absolute -top-10 special-service p-[50px] bg-[#FFFFFF] ">
+          <div className=" relative ">
+            <div className="hover:transition-all duration-300   hover:border-blue absolute -top-10 special-service p-[50px] bg-[#FFFFFF] ">
               <h1 className=" mb-8">
                 <svg
                   width="65"
@@ -132,7 +132,7 @@ const SpecialOutstandingServices = () => {
               </div>
             </div>
           </div>
-          <div className="hover:border-b-2 hover:border-blue  special-service p-[50px]  bg-[#FFFFFF] ">
+          <div className="hover:transition-all duration-300  hover:border-blue  special-service p-[50px]  bg-[#FFFFFF] ">
             <h1 className=" mb-8">
               <svg
                 width="65"
@@ -166,8 +166,8 @@ const SpecialOutstandingServices = () => {
               </div>
             </div>
           </div>
-          <div className="relative">
-            <div className="hover:border-b-2 hover:border-blue absolute -top-10 special-service p-[50px] bg-[#FFFFFF] ">
+          <div className="relative   ">
+            <div className="hover:transition-all duration-300 hover:border-blue absolute -top-10 special-service p-[50px] bg-[#FFFFFF] ">
               <h1 className=" mb-8">
                 <svg
                   width="65"
