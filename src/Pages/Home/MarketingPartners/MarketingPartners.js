@@ -21,19 +21,13 @@ const MarketingPartners = () => {
       </h2>
       <div className="">
         <Swiper
-          // install Swiper modules
           modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
-          // spaceBetween={10}
           slidesPerView={6}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
           loop={true}
-          // navigation={true}
-          // navigation
-          // pagination={{ clickable: true }}
-          // scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >

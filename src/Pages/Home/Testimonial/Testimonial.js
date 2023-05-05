@@ -78,7 +78,7 @@ const Testimonial = () => {
             </button>
           </div>
         </div>
-        {/* container grid pt-[64px] justify-center grid-cols-1 gap-[30px] lg:grid-cols-3 */}
+
         <div className="">
           <Swiper
             // install Swiper modules
@@ -86,10 +86,6 @@ const Testimonial = () => {
             spaceBetween={50}
             slidesPerView={3}
             navigation={{ prevEl: ".prev", nextEl: ".next" }}
-            // pagination={{ clickable: true }}
-            // scrollbar={{ draggable: true }}
-            // onSwiper={(swiper) => console.log(swiper)}
-            // onSlideChange={() => console.log("slide change")}
           >
             <SwiperSlide>
               <div className="  flex flex-col  ">

@@ -1,3 +1,9 @@
+.swiper-slide-next svg {
+  color: #008aff;
+}
+.swiper-slide-next {
+  color: #fff;
+}
 .customer-say {
   font-style: normal;
   font-weight: 500;
