@@ -3,3 +3,17 @@
 .hr-style {
   border: 1px solid #dee7ee;
 }
+.counter-line {
+  position: relative;
+  /* background: red; */
+}
+.counter-line:not(:last-child)::after {
+  width: 1px;
+  height: 59px;
+  border: 1px solid #dee7ee;
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
