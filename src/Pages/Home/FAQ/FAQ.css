@@ -9,3 +9,14 @@
 
   color: #222d39;
 }
+.description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  /* Body Text */
+
+  color: #8492a7;
+}

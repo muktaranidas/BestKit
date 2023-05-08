@@ -14,7 +14,7 @@ const FQA = ({ descriptionitem }) => {
   };
 
   return (
-    <div className="bg-white   p-[35px]">
+    <div className="bg-white  px-[35px] pt-[25px] pb-[35px]">
       <div className="flex flex-row  justify-between">
         <p className=" outline-none cursor-pointer tab-title ">{title}</p>
         <button onClick={() => handleToggle(id)}>
@@ -34,7 +34,7 @@ const FQA = ({ descriptionitem }) => {
           </svg>
         </button>
       </div>
-      <div className={`pt-[25px] `}>
+      <div className={` description`}>
         {openIndex === id && <p>{description}</p>}
       </div>
     </div>
