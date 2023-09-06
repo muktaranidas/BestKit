@@ -7,7 +7,6 @@ const AboutBottom = () => {
     <section className="widthClass">
       <hr className="hr-style mb-[62px]" />
       <div className=" container  grid grid-cols-1 gap-[117px] mx-auto sm:grid-cols-2 xl:grid-cols-4">
-        {/*  */}
         <div className="counter-line ">
           <div className="flex gap-[30px]   ">
             <svg
